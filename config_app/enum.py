@@ -30,21 +30,7 @@ class Variable():
     status boolean
     );
 
-    INSERT INTO chat_saleman.llm_key_table (gmail_account, llm_key, key_type, status) VALUES
-('dinhquanghuy1107@gmail.com', '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', 'groq', '1'),
-('hdqptit1107@gmail.com', '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', 'groq', '1'),
-('AIOaihub02@gmail.com', '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', 'groq', '1'),
-('dqhptit167@gmail.com', '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', 'groq', '1'),
-('HeyGen', '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', 'groq', '1'),
-('tranhaothptvanoi1@gmail.com', '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', 'groq', '1'),
-('testepoch68@gmail.com', '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', 'groq', '1'),
-('vanhaoai2024@gmail.com', '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', 'groq', '1'),
-('phanmyle22102003@gmail.com', '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', 'groq', '1'),
-('Thuyrr05@gmail.com', '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', 'groq', '1'),
-('lluan8786@gmail.com', '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', 'groq', '1'),
-('dinhquanghuy1107@gmail.com', 'sk-proj-w3azMwrCVPY4fIZFYKpXT3BlbkFJkzTwig65TQM4hqSaInwM', 'openai', '1'),
-('dangduyhung', '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', 'openai', '1');
-'''
+
     MESSAGE = [
         "Xin chào! Mình là trợ lý AI tư vấn sản phẩm AIO. Mình đang phát triển nên không phải lúc nào cũng đúng. Bạn có thể phản hồi để giúp mình cải thiện tốt hơn. Mình sẵn sàng giúp bạn với câu hỏi về chính sách và tìm kiếm sản phẩm. Hôm nay bạn cần mình hỗ trợ gì không?",
         "Chào bạn! Tôi là AI hỗ trợ tư vấn sản phẩm AIO. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mọi góp ý của bạn đều giúp tôi ngày càng hoàn thiện. Tôi có thể giúp gì cho bạn về các vấn đề chính sách hoặc tìm kiếm thông tin sản phẩm hôm nay?",
