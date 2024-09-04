@@ -1,0 +1,392 @@
+2024/09/03 13:27:28 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 13:27:28 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 13:27:28 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 13:27:28 chat_main_asyncio,line: 34     INFO | InputText: test
+2024/09/03 13:27:28 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 13:27:28 chat,line: 81     INFO | =====rasa=====
+2024/09/03 13:27:28 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 13:27:28 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 13:27:28 chat,line: 106     INFO | =====LLM=====
+2024/09/03 13:27:29 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 13:27:30 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 13:27:30 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/03 13:27:30 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.003s]
+2024/09/03 13:27:30 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+trong database không có câu trả lời, hãy dựa vào lịch sử trò chuyện trước để trả lời:
+2024/09/03 13:27:30 chat,line: 62     INFO | ==Conversation==
+2024/09/03 13:27:31 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 13:27:31 chat,line: 160     INFO | +LLM out+:
+Xin chào! Có điều gì tôi có thể giúp đỡ bạn hôm nay không?
+2024/09/03 13:27:31 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 13:27:31 main_run,line: 199     INFO | ---results---: Xin chào! Có điều gì tôi có thể giúp đỡ bạn hôm nay không?
+2024/09/03 18:15:42 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 18:15:42 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 18:15:42 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 18:15:42 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tra cứu hàng tồn kho?
+2024/09/03 18:15:42 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 18:15:42 chat,line: 81     INFO | =====rasa=====
+2024/09/03 18:15:42 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/03 18:15:42 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 18:15:42 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/03 22:39:08 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 22:39:08 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 22:39:08 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 22:39:08 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 22:39:08 main_run,line: 199     INFO | ---results---: Chào bạn! Tôi là AI hỗ trợ của AIO. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mọi góp ý của bạn đều giúp tôi ngày càng hoàn thiện. Tôi có thể giúp gì cho bạn về các vấn đề chính sách hoặc tìm kiếm thông tin sản phẩm hôm nay?
+2024/09/03 22:47:55 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 22:47:55 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 22:47:55 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 22:47:55 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 22:47:55 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 22:47:55 main_run,line: 199     INFO | ---results---: Rất tiếc vì sự cố không mong muốn này. Chúng tôi đang nỗ lực khắc phục và sẽ sớm trở lại. Cảm ơn sự thông cảm của bạn!
+2024/09/03 22:50:47 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 22:50:47 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 22:50:47 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 22:50:47 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 22:50:47 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 22:50:47 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm M&EGD000242: 
+Tên Kho: Kho  HNI Trung tâm Đống Đa - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_11
+SL: 41
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hai Bà Trưng - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_12
+SL: 29
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hoàng Mai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_7
+SL: 54
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hà Đông - Thanh Oai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_16_18
+SL: 21
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Sóc Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_3
+SL: 47
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Nam Từ Liêm - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_30
+SL: 33
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Đông Anh - Mê Linh - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_2_4
+SL: 42
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Thường Tín - Phú Xuyên - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_19_20
+SL: 47
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Chương Mỹ - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_17
+SL: 6
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Mỹ Đức - Ứng Hòa - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_21_22
+SL: 10
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Thạch Thất - Quốc Oai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_24_27
+SL: 37
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Sơn Tây - Ba Vì - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_23_26
+SL: 25
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Phúc Thọ - Đan Phượng - Hoài Đức - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_25_28_29
+SL: 53
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Thanh Xuân - Thanh Trì - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_5_6
+SL: 41
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Gia Lâm - Long Biên - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_1_15
+SL: 10
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Tây Hồ - Bắc Từ Liêm - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_10_31
+SL: 24
+       -------------------      
+
+2024/09/03 23:32:10 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:32:10 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:32:10 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:32:10 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 23:32:10 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 23:32:10 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm ấm đun nước: 
+Tên Kho: Kho  HNI Trung tâm Đống Đa - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_11
+SL: 14
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Đống Đa - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_11
+SL: 41
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Đống Đa - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_11
+SL: 2
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hai Bà Trưng - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_12
+SL: 16
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hai Bà Trưng - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_12
+SL: 29
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hoàng Mai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_7
+SL: 1
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hoàng Mai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_7
+SL: 54
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hà Đông - Thanh Oai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_16_18
+SL: 17
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hà Đông - Thanh Oai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_16_18
+SL: 21
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Sóc Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_3
+SL: 44
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Sóc Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_3
+SL: 47
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Nam Từ Liêm - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_30
+SL: 39
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Nam Từ Liêm - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_30
+SL: 33
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Đông Anh - Mê Linh - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_2_4
+SL: 34
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Đông Anh - Mê Linh - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_2_4
+SL: 42
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Thường Tín - Phú Xuyên - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_19_20
+SL: 38
+       -------------------      
+
+2024/09/03 23:34:17 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:34:17 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:34:17 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:34:17 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tra cứu hàng tồn kho?
+2024/09/03 23:34:17 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:34:17 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:34:17 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/03 23:34:17 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:34:17 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/03 23:52:57 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:52:57 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:52:57 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:52:57 chat_main_asyncio,line: 34     INFO | InputText: chính sách bảo hàng đèn năng lượng mặt trời
+2024/09/03 23:52:57 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:52:57 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:52:57 chat,line: 100     INFO | +rasa out+:
+Anh/chị xin thông cảm! Em không hiểu yêu cầu đưa ra.
+2024/09/03 23:52:57 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:52:57 main_run,line: 199     INFO | ---results---: Anh/chị xin thông cảm! Em không hiểu yêu cầu đưa ra.
+2024/09/03 23:55:12 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:55:12 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:55:12 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:55:12 chat_main_asyncio,line: 34     INFO | InputText: chính sách bán lẻ 
+2024/09/03 23:55:12 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:55:12 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:55:12 chat,line: 100     INFO | +rasa out+:
+Anh/chị xin thông cảm! Em không hiểu yêu cầu đưa ra.
+2024/09/03 23:55:12 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:55:12 main_run,line: 199     INFO | ---results---: Anh/chị xin thông cảm! Em không hiểu yêu cầu đưa ra.
+2024/09/04 00:05:29 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:05:29 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:05:29 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:05:29 chat_main_asyncio,line: 34     INFO | InputText: lọc các điều hoà MDV có công suất dưới 18000BTU
+2024/09/04 00:05:29 main_run,line: 131     INFO | ---ChatText---
+2024/09/04 00:05:29 chat,line: 81     INFO | =====rasa=====
+2024/09/04 00:05:29 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/04 00:05:29 chat,line: 102     INFO | ====rasa done!====
+2024/09/04 00:05:29 chat,line: 106     INFO | =====LLM=====
+2024/09/04 00:05:30 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 00:05:31 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 00:05:31 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/04 00:05:31 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.004s]
+2024/09/04 00:05:31 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *điều hòa mdv - inverter 9000 btu - Mã: 019013000001
+  Thông số sản phẩm: nguồn điện: 220-240v
+công suất: 9500 btu/h
+công suất tiêu thụ: 745 w
+cường độ dòng điện: 3.4 a
+err: 3.54 w/w
+inverter : có
+kích thước máy trong ( dxrxc): 726x210x291 (mm)
+khối lượng thực máy trong/ khối lượng đóng gói: 8.2/10.3 kg
+kích thước máy ngoài (dxrxc): 835x300x540 (mm)
+khối lương thực máy ngoài / khối lượng đóng gói: 21.7/23.2 kg
+loại gas/ khối lượng nạp: r32/0.38
+ap suất thiết kế: 4.3/1.7 mpa
+chiều dài đường ống tối đa: 25m
+chênh lệch độ cao tối đa: 10m
+phạm vi lành lạnh hiệu quả : 12~18 m2
+hiệu suất năng lượng : 4.48 cspf
+bảo hành 3 năm cho sản phẩm
+bảo hành 5 năm cho máy nén
+suất xứ : thái lan
+ - Giá tiền: 6,014,184 đ*
+
+2. *điều hòa mdv 1 chiều 12000 btu - model 2023 - Mã: 019013000004
+  Thông số sản phẩm: model: mdvg-13crdn8
+công suất: 12.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 15 - 20m²
+gas: r32
+mức tiêu thụ điện: 1.15 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 810 x 285 x 210 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 14 kg
+trọng lượng dàn nóng: 25 kg
+ - Giá tiền: 7,246,030 đ*
+
+3. *điều hòa mdv 1 chiều inverter 18000 btu - model 2023 - Mã: 019013000003
+  Thông số sản phẩm: model: mdvg-18crdn8
+công suất: 18.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 20 - 30m²
+gas: r32
+mức tiêu thụ điện: 1.65 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 969 x 320 x 241 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 18 kg
+trọng lượng dàn nóng: 28 kg
+ - Giá tiền: 11,740,520 đ*
+
+4. *điều hòa carrier 1 chiều inverter 18.000 btu/h (2 hp) - model 2023 - Mã: 019014000003
+  Thông số sản phẩm: loại: điều hòa 1 chiều inverter
+
+công suất: 18.000 btu/h (2 hp)
+
+diện tích sử dụng: 20 - 30m²
+
+mức tiêu thụ điện:
+
+làm lạnh: 1.50 kw/h
+sưởi ấm: -
+hiệu suất năng lượng: 5.8 (a++)
+
+gas: r32
+
+chế độ inverter: có
+
+chức năng:
+
+làm lạnh nhanh
+tự làm sạch
+lọc bụi mịn pm2.5
+khử mùi
+chế độ gió coanda
+hẹn giờ
+điều khiển từ xa
+độ ồn:
+
+dàn lạnh: 22/19 db(a)
+dàn nóng: 52/48 db(a)
+kích thước:
+
+dàn lạnh: 910 x 320 x 230 mm
+dàn nóng: 770 x 285 x 540 mm
+trọng lượng:
+
+dàn lạnh: 14 kg
+dàn nóng: 28 kg
+ - Giá tiền: 16,508,470 đ*
+
+2024/09/04 00:05:31 chat,line: 62     INFO | ==Conversation==
+2024/09/04 00:05:35 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 00:05:35 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về các điều hòa MDV có công suất dưới 18000 BTU:
+
+1. Điều hòa MDV - Inverter 9000 BTU - Mã: 019013000001
+   - Công suất: 9500 BTU/h
+   - Diện tích sử dụng: 12~18 m²
+   - Mức tiêu thụ điện: 745 W
+   - Kích thước máy trong (DxRxC): 726 x 210 x 291 (mm)
+   - Khối lượng thực máy trong: 8.2 kg
+   - Bảo hành: 3 năm cho sản phẩm, 5 năm cho máy nén
+   - Giá tiền: 6,014,184 đ
+
+2. Điều hòa MDV 1 chiều 12000 BTU - Model 2023 - Mã: 019013000004
+   - Công suất: 12000 BTU/h
+   - Diện tích sử dụng: 15 - 20 m²
+   - Mức tiêu thụ điện: 1.15 kW/h
+   - Kích thước dàn lạnh: 810 x 285 x 210 mm
+   - Trọng lượng dàn lạnh: 14 kg
+   - Giá tiền: 7,246,030 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/04 00:05:35 chat,line: 162     INFO | =====LLM done!=====
+2024/09/04 00:05:35 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về các điều hòa MDV có công suất dưới 18000 BTU:
+
+1. Điều hòa MDV - Inverter 9000 BTU - Mã: 019013000001
+   - Công suất: 9500 BTU/h
+   - Diện tích sử dụng: 12~18 m²
+   - Mức tiêu thụ điện: 745 W
+   - Kích thước máy trong : 726 x 210 x 291 
+   - Khối lượng thực máy trong: 8.2 kg
+   - Bảo hành: 3 năm cho sản phẩm, 5 năm cho máy nén
+   - Giá tiền: 6,014,184 đ
+
+2. Điều hòa MDV 1 chiều 12000 BTU - Model 2023 - Mã: 019013000004
+   - Công suất: 12000 BTU/h
+   - Diện tích sử dụng: 15 - 20 m²
+   - Mức tiêu thụ điện: 1.15 kW/h
+   - Kích thước dàn lạnh: 810 x 285 x 210 mm
+   - Trọng lượng dàn lạnh: 14 kg
+   - Giá tiền: 7,246,030 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/04 00:17:25 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:17:25 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:17:25 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:17:25 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 00:17:25 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!
+2024/09/04 08:11:17 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 08:11:17 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 08:11:17 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 08:11:17 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 08:11:17 main_run,line: 199     INFO | ---results---: Xin chào anh/chị! Tôi rất hân hạnh được hỗ trợ anh chị trong việc tìm kiếm sản phẩm và chính sách.
+2024/09/04 08:45:37 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 08:45:37 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 08:45:37 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 08:45:37 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 08:45:37 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!
+2024/09/04 08:45:40 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 08:45:40 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 08:45:40 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 08:45:40 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tra cứu hàng tồn kho?
+2024/09/04 08:45:40 main_run,line: 131     INFO | ---ChatText---
+2024/09/04 08:45:40 chat,line: 81     INFO | =====rasa=====
+2024/09/04 08:45:40 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/04 08:45:40 chat,line: 102     INFO | ====rasa done!====
+2024/09/04 08:45:40 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:

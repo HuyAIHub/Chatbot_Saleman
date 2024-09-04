@@ -43,12 +43,12 @@ def parse_price_range(price):
         elif prefix.lower().strip() == 'đến':
             max_price = max(min_price, number)
         else:  # Trường hợp không có từ khóa
-            min_price = number * 0.8
-            max_price = number * 1.2
+            min_price = number * 0.9
+            max_price = number * 1.15
 
     if min_price == float('inf'):
         min_price = 0
-    # print('min_price, max_price:',min_price, max_price)
+    print('min_price, max_price:',min_price, max_price)
     return min_price, max_price
 
 def search_specifications(client, index_name, product, product_name, specifications, price, power, weight, volume):
@@ -403,8 +403,9 @@ def search_product(client, index_name, product_name):
         }
     }
 
-
+    t1 = time.time()
     res = client.search(index=index_name, body=query)
+    print("=====time query====", time.time()-t1)
     return res
 
 def search_db(demands):
@@ -412,7 +413,7 @@ def search_db(demands):
     
     '''
     #init 
-    out_text = ""
+    out_text = "Dựa vào bối cảnh sau để trả lời\n"
     products = []
     product_dict = {}
     index_name = enum.INDEX_ELASTIC
@@ -422,7 +423,7 @@ def search_db(demands):
     list_product = df['group_name'].unique()
     check_match_product = find_closest_match(demands['object'][0], list_product)
     print('check_match_product',check_match_product)
-    if check_match_product[1] < 75:
+    if check_match_product[1] < 50:
         # out_text += f"Anh/chị có thể cho tôi biết thêm thông tin chi tiết sản phẩm để tôi có thể hỗ trợ Anh/chị được không?" 
         ok = 0
         return out_text, products, ok
@@ -443,15 +444,16 @@ def search_db(demands):
         weight = ''
         volume = ''
         specifications = ''
-    print('------check object----', product_names)
     result = []
     t1 = time.time()
     quantity_specifications = enum.QUANTITY_SPECIFICATIONS
     compare_specifications = enum.COMPARE_SPECIFICATIONS
     for product_name, price in zip(product_names, prices):
         product_match = find_closest_match(product_name, list_product)[0]
+        print("=====product_match====",product_match, product_name)
         result_df = df[df['group_name'] == product_match]
         product = result_df['group_product_name'].tolist()[0]
+        print("======product name====", product_name)
         # full option specifications, giá, công suất, khối lượng, dung tích
         if specifications and (price or power or weight or volume) or specifications:
             # Count quantity each group name
@@ -484,7 +486,7 @@ def search_db(demands):
         s_name = product_name
         # Check query is None
         if product['hits']['hits'] == [] and ok != 0:
-            out_text += f"không có sản phẩm mà anh/chị cần?"
+            out_text += "trong database không có câu trả lời, hãy dựa vào lịch sử trò chuyện trước để trả lời:"
             break
         cnt = 0
         quantity_name = ""
@@ -532,9 +534,9 @@ def search_db(demands):
                 if len(products) < 10 and product['code'] != "":
                     products.append(product)
         if ok == 1:
-            out_text += f"ví dụ trong {cnt} sản phẩm:"
+            out_text += f"---Số lượng là {cnt}:\n"
             out_text += quantity_name
-            out_text += f"Hãy trả lời là có {cnt} sản phẩm nhé!"
+            out_text += f"...còn nữa."
     print("-----time elastic search-------:",time.time() - t1)
     logging.info(f'======== elasticsearch output ==========:\n{out_text}')
     print('======== elasticsearch output ==========:\n', out_text)

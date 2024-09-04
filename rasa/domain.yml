@@ -96,9 +96,6 @@ responses:
         title: "Đưa ra chính sách bảo hành"
     text: "Nếu Anh/chị cần biết thêm thông tin hoặc có yêu cầu cụ thể về dịch vụ của VCC, xin vui lòng cho biết."
   
-  utter_VCC_01:
-  - text: Chủ tịch của Viettel là Thiếu tướng Tào Đức Thắng!
- 
   utter_VCC_02:
   - text: Viettel được thành lập vào ngày 1/6/1989!
   

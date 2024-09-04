@@ -9,24 +9,50 @@ import requests
 from rag_architecture.retrieval import search_db
 from rag_architecture.few_shot_sentence import classify_intent, find_closest_match, correct_spelling_input
 from rag_architecture.generate import initialize_chat_conversation
-from utils.llm_manager import get_llm
-from utils.db_postgresql import DatabaseHandler
 from config_app.enum import Variable
 from typing import Dict, Any 
 import logging, time, datetime
 
-user_storage: Dict[str, Dict[str, Any]] = {}
 random_number = random.randint(0, 4)
 config_app = get_config()
 enum = Variable()
-save_outtext = {}
-llm = get_llm()
 rasa_host = config_app['parameter']['rasa_url']
 data_private = config_app['parameter']['data_private']
 df = pd.read_excel(data_private)
 current_time = datetime.datetime.now() # current time
 
-def handle_conversation(ok, query_text, response_elastic, session_id, llm):
+USER_STORAGE_DIR = 'logs/user_storage/'
+os.makedirs(USER_STORAGE_DIR, exist_ok=True)
+
+def load_user_data(user_id: str) -> dict:
+    user_dir = os.path.join(USER_STORAGE_DIR, f'{user_id}')
+    os.makedirs(user_dir, exist_ok=True)
+    file_path = os.path.join(user_dir, 'session.json')
+    data = {}
+    if not os.path.exists(file_path):
+        data['save_outtext'] = ''
+
+    if os.path.exists(file_path):
+        with open(file_path,'r', encoding='utf-8') as file:
+
+            data = json.load(file)
+
+    return  data['save_outtext']
+
+def set_save_outtext(user_id: str, new_value: str) -> None:
+    user_dir = os.path.join(USER_STORAGE_DIR, f'{user_id}')
+    os.makedirs(user_dir, exist_ok=True)
+    file_path = os.path.join(user_dir, 'session.json')
+    data = {}
+    if os.path.exists(file_path):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+    data['save_outtext'] = new_value
+
+    with open(file_path, 'w', encoding='utf-8') as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
+
+def handle_conversation(ok, query_text, response_elastic, session_id):
     print('query text in chat', query_text)
     if ok == 0:
         logging.info("==Conversation2==")
@@ -36,16 +62,11 @@ def handle_conversation(ok, query_text, response_elastic, session_id, llm):
         logging.info("==Conversation==")
         print('= =  Conversation  = =')
         initialize_func = initialize_chat_conversation
-    result = ''
-    result = initialize_func(query_text, response_elastic, session_id, llm)
+    result = initialize_func(query_text, response_elastic, session_id)
     return result
 
 def predict_rasa_llm(input_text, session_id, namebot, user_id, type=enum.TYPE_RASA):
     user_id = str(user_id)
-    global user_storage
-    # Kiểm tra nếu user_id đã có trong storage
-    if session_id not in user_storage:
-        user_storage[session_id] = {'save_outtext': ''}
     session_id = str(session_id)
     # current_time = current_time.strftime("%Y-%m-%d_%H:%M:%S")
     print("----------------NEW_SESSION--------------")
@@ -63,7 +84,7 @@ def predict_rasa_llm(input_text, session_id, namebot, user_id, type=enum.TYPE_RA
         response = requests.post(rasa_host, json={"sender": "test", "message": query_text})
         print('response.json():',response.json())
         if len(response.json()) == 0:
-            results['out_text'] = enum.can_not_res[random_number]
+            results['out_text'] = 'LLM_predict'
         elif response.json()[0].get("buttons"):
             results['terms'] = response.json()[0]["buttons"]
             results['out_text'] = response.json()[0]["text"]
@@ -87,6 +108,7 @@ def predict_rasa_llm(input_text, session_id, namebot, user_id, type=enum.TYPE_RA
         # Initialize variables     
         demands = {'object': {}}
         products = []
+    
         list_product = df["group_name"].unique()
         check_match_product = find_closest_match(query_text, list_product)
         if check_match_product[1] < 43:
@@ -98,31 +120,43 @@ def predict_rasa_llm(input_text, session_id, namebot, user_id, type=enum.TYPE_RA
             print("= = = = result few short = = = =:", demands)
             if len(demands['object']) >= 1:
                 response_elastic, products, ok = search_db(demands)
-                user_storage[session_id]['save_outtext'] = response_elastic
+                print('===response_elastic===', response_elastic)
+                if len(response_elastic) > 0:
+                    set_save_outtext(user_id, response_elastic)
             else: 
                 ok = 0
                 # response_elastic = "Không có sản phẩm mà anh/chị cần!"
-        print('=====save_storage====', user_storage[session_id]['save_outtext'])
-        result, memory, total_tokens = handle_conversation(ok, query_text, user_storage[session_id]['save_outtext'], session_id, llm)
-        conversation_messages_conv = memory.chat_memory.messages
-        messages_conv = messages_to_dict(conversation_messages_conv)
+        t1 = time.time()
+        result, memory, total_tokens = handle_conversation(ok, query_text, load_user_data(user_id), session_id)
+        # conversation_messages_conv = memory.chat_memory.messages
+        # messages_conv = messages_to_dict(conversation_messages_conv)
         # Save to DB
-        try:
-            db_handler = DatabaseHandler()
-            db_handler.insert_chat_message(user_id, session_id, current_time, messages_conv)
-        except Exception as e:
-            print(f"An error occurred: {e}")
+        # try:
+        #     db_handler = DatabaseHandler()
+        #     db_handler.insert_chat_message(user_id, session_id, current_time, messages_conv)
+        # except Exception as e:
+        #     print(f"An error occurred: {e}")
             
         # print("====memory===", messages_conv)
         # Predict handle conversation function
-        results['out_text'] = result.replace("AI: ", "").replace("Assistant: ", "").replace("Support Staff: ", "").replace("*", "")
+        try:
+            results['out_text'] = result.replace("AI: ", "").replace("Assistant: ", "").replace("Support Staff: ", "").replace("*", "")
+        except Exception as e:
+            results['out_text'] = result
+            
         results['products'] = products
         results['total_tokens'] = total_tokens
         if len(demands['object']) >= 1:
-            results['terms'].append({
+            results['terms'] = [
+            {
                 "payload": "similarity_status_true",
                 "title": "Bạn muốn tìm kiếm sản phẩm tương tự?"
-            })
+            },
+            {
+                "payload": "inventory_status_true",
+                "title": "Bạn muốn tra cứu hàng tồn kho?"
+            }
+            ]
         logging.info(f"+LLM out+:\n{results['out_text']}")
         print('+LLM out+:\n',results['out_text'])
         logging.info("=====LLM done!=====")
@@ -151,19 +185,18 @@ def predict_rasa_llm_for_image(objects, session_id, NameBot, user_id, type = enu
     response_elastic, products, ok = search_db(demands)
     # user_storage[session_id]['save_outtext'] = response_elastic
     
-    result, memory, total_tokens = handle_conversation(ok, query_text, response_elastic , session_id, llm)
+    result, memory, total_tokens = handle_conversation(ok, query_text, response_elastic , session_id)
     conversation_messages_conv = memory.chat_memory.messages
     messages_conv = messages_to_dict(conversation_messages_conv)
     
     # Save to DB
-    try:
-        db_handler = DatabaseHandler()
-        db_handler.insert_chat_message(user_id, session_id, current_time, messages_conv)
-    except Exception as e:
-        print(f"An error occurred: {e}")
+    # try:
+    #     db_handler = DatabaseHandler()
+    #     db_handler.insert_chat_message(user_id, session_id, current_time, messages_conv)
+    # except Exception as e:
+    #     print(f"An error occurred: {e}")
     
-    t1 = time.time()
-    print("time predict conver: ", time.time() - t1)
+    # print("time predict conver: ", time.time() - t1)
     results['out_text'] = result
     results['products'] = products
     if len(objects) >= 1:

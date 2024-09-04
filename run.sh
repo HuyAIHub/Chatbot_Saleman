@@ -1,2 +1,3 @@
-nohup python app_chat1.py >logs/log/logs.txt 2>&1 & echo $! > logs/pid/run.pid
-nohup python app_chat2.py >logs/log/logs2.txt 2>&1 & echo $! > logs/pid/run2.pid
+nohup python chat_main_asyncio.py >logs/log/chat_main_asyncio.txt 2>&1 & echo $! > logs/pid/chat_main_asyncio.pid
+
+# kill -9 $(cat logs/pid/run{1..8}.pid)

@@ -1,0 +1,73 @@
+2024/08/31 16:34:52 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/31 16:34:52 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/31 16:34:52 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/31 16:34:52 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/08/31 16:34:52 main_run,line: 199     INFO | ---results---: Xin chào! Mình là trợ lý AI của bạn tại AIO. Mình đang phát triển nên không phải lúc nào cũng đúng. Bạn có thể phản hồi để giúp mình cải thiện tốt hơn. Mình sẵn sàng giúp bạn với câu hỏi về chính sách và tìm kiếm sản phẩm. Hôm nay bạn cần mình hỗ trợ gì không?
+2024/08/31 21:41:13 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/31 21:41:13 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/31 21:41:13 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/31 21:41:13 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/08/31 21:41:13 main_run,line: 177     INFO | ---Inventory---
+2024/08/31 21:41:18 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm đèn NLMT 1 pha 40W: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/01 07:27:51 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 07:27:51 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 07:27:51 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 07:27:51 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 07:27:51 main_run,line: 199     INFO | ---results---: Xin chào anh/chị! Tôi rất hân hạnh được hỗ trợ anh chị trong việc tìm kiếm sản phẩm và chính sách.
+2024/09/01 15:54:16 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 15:54:16 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 15:54:16 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 15:54:16 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 15:54:16 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 15:54:17 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm đèn nlmt: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/01 16:03:15 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 16:03:15 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 16:03:15 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 16:03:15 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 16:03:15 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 16:03:15 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm năng lượng mặt trời: 
+Tên Kho: Kho CNCT NDH - Kinh doanh GPTH
+Mã kho: MKNDH001009
+SL: 1
+       -------------------      
+Tên Kho: Kho CNCT NDH - Kinh doanh GPTH
+Mã kho: MKNDH001009
+SL: 1
+       -------------------      
+Tên Kho: Kho CNCT NDH - Kinh doanh GPTH
+Mã kho: MKNDH001009
+SL: 1
+       -------------------      
+Tên Kho: Kho CNCT NDH - Kinh doanh GPTH
+Mã kho: MKNDH001009
+SL: 1
+       -------------------      
+Tên Kho: Kho CNCT NDH - Kinh doanh GPTH
+Mã kho: MKNDH001009
+SL: 10
+       -------------------      
+Tên Kho: Kho  NDH Trung tâm Nam Trực - Nghĩa Hưng - Kinh doanh GPTH
+Mã kho: MKAIO_NDH_TTH_5_6
+SL: 1
+       -------------------      
+Tên Kho: Kho  NDH Trung tâm Nam Trực - Nghĩa Hưng - Kinh doanh GPTH
+Mã kho: MKAIO_NDH_TTH_5_6
+SL: 1
+       -------------------      
+Tên Kho: Kho  NDH Trung tâm Hải Hậu - Trực Ninh - Kinh doanh GPTH
+Mã kho: MKAIO_NDH_TTH_7_8
+SL: 1
+       -------------------      
+
+2024/09/01 16:04:31 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 16:04:31 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 16:04:31 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 16:04:31 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 16:04:31 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 16:04:35 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm năng lượng mặt trời 100w: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+

@@ -1,0 +1,128 @@
+2024/09/04 12:15:33 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 12:15:33 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 12:15:33 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 12:15:33 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 12:15:33 main_run,line: 199     INFO | ---results---: Chào bạn! Tôi là AI hỗ trợ của AIO. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mọi góp ý của bạn đều giúp tôi ngày càng hoàn thiện. Tôi có thể giúp gì cho bạn về các vấn đề chính sách hoặc tìm kiếm thông tin sản phẩm hôm nay?
+2024/09/04 17:42:17 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 17:42:17 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 17:42:17 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 17:42:17 chat_main_asyncio,line: 34     INFO | InputText: Đèn NLMT bàn chải rời thể 200W.
+2024/09/04 17:42:17 main_run,line: 131     INFO | ---ChatText---
+2024/09/04 17:42:17 chat,line: 81     INFO | =====rasa=====
+2024/09/04 17:42:17 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/04 17:42:17 chat,line: 102     INFO | ====rasa done!====
+2024/09/04 17:42:17 chat,line: 106     INFO | =====LLM=====
+2024/09/04 17:42:18 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 17:42:19 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 17:42:19 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/04 17:42:19 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.004s]
+2024/09/04 17:42:19 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *đèn nlmt bàn chải rời thể 200w (nhôm) smsmh000041 - Mã: SMSMH000041
+  Thông số sản phẩm: • công suất định mức: 200w
+• kích thước thân đèn: 495mm * 210mm * 70mm
+• kích thước bảng điều khiển: 600mm * 350mm * 17mm
+• bảng điều khiển: bảng điều khiển nlmt đa tinh thể 6v / 25w
+• loại pin: lithium sắt phosphate 32650 / 3.2v 25000mah
+• diện tích sử dụng đề xuất: 200m2 – 300m2
+• cấu hình sản phẩm: điều khiển từ xa, cáp chống thấm 1,2m, vít lắp, cán đèn, cột đèn, khung bảng quang điện
+• thời gian chiếu sáng: 12 giờ
+• thời gian sạc: 6-8 giờ
+• tiêu chuẩn bảo vệ chống nước: ip67
+• nhiệt độ màu: 6.500k
+• led loại mắt: smd 5730-360pcs
+• chức năng sản phẩm: cảm biến ánh sáng tự động bật vào lúc hoàng hôn và tắt lúc bình minh, có thể điều khiển từ xa bằng điều khiển từ xa.
+ - Giá tiền: 1,148,000 đ*
+
+2. *đèn nlmt bàn chải liền thể 200w 3f - Mã: SMSMH000053
+  Thông số sản phẩm: • công suất định mức: 200w
+• kích thước thân đèn: 645mm* 300mm * 70mm
+• kích thước bảng điều khiển: 4v / 15w polysilicon, 535mm * 210mm
+• loại pin: pin lithium sắt phosphate 3.2v / 18000mah
+• diện tích sử dụng đề xuất: 100m2 – 150m2
+• cấu hình sản phẩm: điều khiển từ xa, vít lắp, cán đèn
+• thời gian chiếu sáng: 12h
+• thời gian sạc: 6-8h
+• tiêu chuẩn bảo vệ chống nước: ip67
+• nhiệt độ màu: 6.500k led
+• loại mắt: smd 2835-480cs
+• chức năng sản phẩm: cảm biến ánh sáng tự động bật vào lúc hoàng hôn và tắt lúc bình minh, có thể điều khiển từ xa bằng điều khiển từ xa.
+ - Giá tiền: 858,000 đ*
+
+3. *đèn nlmt rời thể chống lóa 200w (nhôm) - Mã: SMSMH000050
+  Thông số sản phẩm: • công suất định mức: 200w
+• kích thước thân đèn: 240mm * 300mm * 80mm
+• kích thước bảng điều khiển: 600mm * 350mm * 17mm
+• bảng điều khiển: bảng điều khiển năng lượng mặt trời đa tinh thể 6v / 30w
+• loại pin: lithium sắt phosphate 32650 / 3.2v 25000mah
+• diện tích sử dụng đề xuất: 100m2 – 200m2
+• cấu hình sản phẩm: khung lắp hình chữ u, điều khiển từ xa, có cáp chống nước 5 mét, vít lắp
+• thời gian chiếu sáng: 12h
+• thời gian sạc: 6-8h
+• tiêu chuẩn bảo vệ chống nước: ip67
+• nhiệt độ màu: 6.500k led
+• loại mắt: smd 2835-142pcs
+• chức năng sản phẩm: cảm biến ánh sáng tự động bật vào lúc hoàng hôn và tắt lúc bình minh, có thể điều khiển từ xa bằng điều khiển từ xa.
+ - Giá tiền: 944,000 đ*
+
+4. *đèn nlmt rời thể 1 pha 200w (nhôm) - Mã: SMDEN000076
+  Thông số sản phẩm: • công suất định mức: 200w
+• kích thước thân đèn: 350mm * 290mm * 75mm
+• kích thước bảng điều khiển: 700mm * 350mm * 17mm
+• bảng điều khiển: bảng điều khiển năng lượng mặt trời đa tinh thể 6v/35w
+• loại pin: lithium iron phosphate 32650/3.2v 30000mah
+• diện tích sử dụng đề xuất: 200m2 – 300m2
+• cấu hình sản phẩm: khung lắp hình chữ u, điều khiển từ xa, có cáp chống nước 5 mét, vít lắp
+• thời gian chiếu sáng: 12h
+• ngày mưa: 1-2 ngày
+• thời gian sạc: 6-8h
+• tiêu chuẩn bảo vệ chống nước: ip67
+• nhiệt độ màu: 6.500k led
+• loại mắt: smd 5730-425pcs
+• chức năng sản phẩm: cảm biến ánh sáng tự động bật vào lúc hoàng hôn và tắt lúc bình minh, có thể điều khiển từ xa bằng điều khiển từ xa.
+ - Giá tiền: 1,243,000 đ*
+
+2024/09/04 17:42:19 chat,line: 62     INFO | ==Conversation==
+2024/09/04 17:42:27 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 17:42:27 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về sản phẩm Đèn NLMT bàn chải rời thể 200W:
+
+1. Sản phẩm: Đèn NLMT bàn chải rời thể 200W (Nhôm) 
+   - Mã: SMSMH000041
+   - Công suất: 200W
+   - Kích thước thân đèn: 495mm  210mm  70mm
+   - Kích thước bảng điều khiển: 600mm  350mm  17mm
+   - Bảng điều khiển: Bảng điều khiển NLMT đa tinh thể 6V / 25W
+   - Loại pin: Lithium sắt phosphate 32650 / 3.2V 25000mAh
+   - Diện tích sử dụng đề xuất: 200m2 – 300m2
+   - Thời gian chiếu sáng: 12 giờ
+   - Thời gian sạc: 6-8 giờ
+   - Tiêu chuẩn bảo vệ chống nước: IP67
+   - Nhiệt độ màu: 6.500K
+   - Loại mắt LED: SMD 5730-360pcs
+   - Chức năng sản phẩm: Cảm biến ánh sáng tự động bật vào lúc hoàng hôn và tắt lúc bình minh, có thể điều khiển từ xa bằng điều khiển từ xa.
+   - Giá tiền: 1,148,000 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về sản phẩm, hãy cho tôi biết!
+2024/09/04 17:42:27 chat,line: 162     INFO | =====LLM done!=====
+2024/09/04 17:42:27 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về sản phẩm Đèn NLMT bàn chải rời thể 200W:
+
+1. Sản phẩm: Đèn NLMT bàn chải rời thể 200W  
+   - Mã: SMSMH000041
+   - Công suất: 200W
+   - Kích thước thân đèn: 495mm  210mm  70mm
+   - Kích thước bảng điều khiển: 600mm  350mm  17mm
+   - Bảng điều khiển: Bảng điều khiển NLMT đa tinh thể 6V / 25W
+   - Loại pin: Lithium sắt phosphate 32650 / 3.2V 25000mAh
+   - Diện tích sử dụng đề xuất: 200m2 – 300m2
+   - Thời gian chiếu sáng: 12 giờ
+   - Thời gian sạc: 6-8 giờ
+   - Tiêu chuẩn bảo vệ chống nước: IP67
+   - Nhiệt độ màu: 6.500K
+   - Loại mắt LED: SMD 5730-360pcs
+   - Chức năng sản phẩm: Cảm biến ánh sáng tự động bật vào lúc hoàng hôn và tắt lúc bình minh, có thể điều khiển từ xa bằng điều khiển từ xa.
+   - Giá tiền: 1,148,000 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về sản phẩm, hãy cho tôi biết!

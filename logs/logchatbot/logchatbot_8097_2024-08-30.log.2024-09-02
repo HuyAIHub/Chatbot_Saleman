@@ -1,0 +1,127 @@
+2024/09/02 08:35:02 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/02 08:35:02 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/02 08:35:02 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/02 08:35:02 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/02 08:35:02 main_run,line: 177     INFO | ---Inventory---
+2024/09/02 08:35:06 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm Ấm đun nước Bluestone KTB-3417: 
+Hiện hàng tại NAN đã hết. Các khu vực sau còn hàng Anh/chị hãy liên hệ các CNCT sau: 
+
++ + + CNCT: NBH + + +
+1. Kho  NBH Trung tâm Ninh Bình - Hoa Lư - Kinh doanh GPTH
+Mã kho: MKAIO_NBH_TTH_1_2
+SL: 4
+      -------------------     
+2. Kho  NBH Trung tâm Nho Quan - Gia Viễn - Kinh doanh GPTH
+Mã kho: MKAIO_NBH_TTH_4_3
+SL: 2
+      -------------------     
+3. Kho  NBH Trung tâm Yên Khánh - Kim Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_NBH_TTH_6_8
+SL: 1
+      -------------------     
+4. Kho  NBH Trung tâm Yên Mô - Tam Điệp - Kinh doanh GPTH
+Mã kho: MKAIO_NBH_TTH_7_5
+SL: 3
+      -------------------     
+
+
++ + + CNCT: HPG + + +
+1. Kho CNCT HPG - Kinh doanh GPTH
+Mã kho: MKHPG001009
+SL: 36
+      -------------------     
+2. Kho  HPG Trung tâm Tiên Lãng - Vĩnh Bảo - An Lão  - Kinh doanh GPTH
+Mã kho: MKAIO_HPG_TTH_9_10_11
+SL: 10
+      -------------------     
+3. Kho  HPG Trung tâm An Dương - Kiến An - Kinh doanh GPTH
+Mã kho: MKAIO_HPG_TTH_7_12
+SL: 10
+      -------------------     
+4. Kho  HPG Trung tâm Đồ Sơn - Dương Kinh - Kiến Thụy - Kinh doanh GPTH
+Mã kho: MKAIO_HPG_TTH_5_6_8
+SL: 10
+      -------------------     
+
+
++ + + CNCT: HYN + + +
+1. Kho CNCT HYN - Kinh doanh GPTH
+Mã kho: MKHYN001009
+SL: 11
+      -------------------     
+2. Kho  HYN Trung tâm Khoái Châu - Kim Động - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_6_8
+SL: 7
+      -------------------     
+3. Kho  HYN Trung tâm Thành phố - Tiên Lữ - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_1_9
+SL: 6
+      -------------------     
+4. Kho  HYN Trung tâm Văn Lâm - Văn Giang - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_3_4
+SL: 8
+      -------------------     
+5. Kho  HYN Trung tâm Yên Mỹ - Mỹ Hào - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_2_5
+SL: 8
+      -------------------     
+
+
++ + + CNCT: HDG + + +
+1. Kho CNCT HDG - Kinh doanh GPTH
+Mã kho: MKHDG001009
+SL: 62
+      -------------------     
+
+
++ + + CNCT: BNH + + +
+1. Kho CNCT BNH - Kinh doanh GPTH
+Mã kho: MKBNH001009
+SL: 44
+      -------------------     
+2. Kho  BNH Trung tâm Thành phố - Quế Võ - Kinh doanh GPTH
+Mã kho: MKAIO_BNH_TTH_1_5
+SL: 1
+      -------------------     
+
+
++ + + CNCT: VPC + + +
+1. Kho CNCT VPC - Kinh doanh GPTH
+Mã kho: MKVPC001009
+SL: 53
+      -------------------     
+2. Kho  VPC Trung tâm Bình Xuyên - Phúc Yên - Kinh doanh GPTH
+Mã kho: MKAIO_VPC_TTH_2_3
+SL: 12
+      -------------------     
+
+
++ + + CNCT: GLI + + +
+1. Kho CNCT GLI - Kinh doanh GPTH
+Mã kho: MKGLI001009
+SL: 1
+      -------------------     
+2. Kho  GLI Trung tâm Đăk Đoa - Mang Yang - Kinh doanh GPTH
+Mã kho: MKAIO_GLI_TTH_15_16
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BTE + + +
+1. Kho  BTE Trung tâm Bến Tre - Giồng Trôm - Kinh doanh GPTH
+Mã kho: MKAIO_BTE_TTH_1_4
+SL: 2
+      -------------------     
+2. Kho  BTE Trung tâm Châu Thành - Kinh doanh GPTH
+Mã kho: MKAIO_BTE_TTH_3
+SL: 1
+      -------------------     
+
+
++ + + CNCT: STG + + +
+1. Kho CNCT STG - Kinh doanh GPTH
+Mã kho: MKSTG001009
+SL: 4
+      -------------------     
+
+

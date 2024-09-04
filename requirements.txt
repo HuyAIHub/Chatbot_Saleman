@@ -21,3 +21,4 @@ librosa
 
 #ps aux | grep rasa
 # pip freeze | grep packaging  
+# http://127.0.0.1:7860/

@@ -1,0 +1,8 @@
+2024/09/01 16:03:01 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 16:03:01 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 16:03:01 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 16:03:01 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 16:03:01 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 16:03:02 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm năng lượng mặt trời: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+

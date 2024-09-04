@@ -4,12 +4,13 @@ from langchain.prompts.prompt import PromptTemplate
 from config_app.config import get_config
 from langchain.chains import LLMChain
 config_app = get_config()
+from utils.llm_manager import get_llm
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import logging, os
 os.environ['OPENAI_API_KEY'] = config_app["parameter"]["openai_api_key"]
-llm = ChatOpenAI(model_name=config_app["parameter"]["gpt_model_to_use"], temperature=config_app["parameter"]["temperature"])
-
+# llm = ChatOpenAI(model_name=config_app["parameter"]["gpt_model_to_use"], temperature=config_app["parameter"]["temperature"])
+llm = get_llm()
 def split_sentences(text_input, examples):
     example_formatter_template = """
         Input command from user: {input_text}
@@ -125,10 +126,6 @@ def classify_intent(question):
         input_variables=["specificationss", "question"],
             template=prompt_template,
     )
-
-    # Sử dụng OpenAI làm LLM
-    llm = ChatOpenAI(model_name=config_app["parameter"]["gpt_model_to_use"], temperature=config_app["parameter"]["temperature"],api_key=config_app["parameter"]["openai_api_key"])
-
     # Tạo LLMChain để phân loại câu hỏi
     chain = LLMChain(
         llm=llm,

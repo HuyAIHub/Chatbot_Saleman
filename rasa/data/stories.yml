@@ -82,15 +82,10 @@ stories:
 
 - story: path15
   steps:
-   - intent: VCC_01
-   - action: utter_VCC_01
-
-- story: path16
-  steps:
    - intent: VCC_02
    - action: utter_VCC_02
 
-- story: path17
+- story: path16
   steps:
    - intent: product_similar
    - action: action_search_product_similar

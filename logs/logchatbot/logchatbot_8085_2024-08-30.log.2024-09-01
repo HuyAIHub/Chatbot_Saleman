@@ -1,0 +1,461 @@
+2024/09/03 08:53:34 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 08:53:34 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 08:53:34 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 08:53:34 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 08:53:34 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 08:53:37 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm tenda f6: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/03 08:53:49 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 08:53:49 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 08:53:49 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 08:53:49 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 08:53:49 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 08:53:49 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm F6: 
+Tên Kho: Kho  QBH Trung tâm Quảng Trạch - Kinh doanh GPTH
+Mã kho: MKAIO_QBH_TTH_5
+SL: 9
+       -------------------      
+Tên Kho: Kho  QBH Trung tâm Thành phố - Quảng Ninh - Kinh doanh GPTH
+Mã kho: MKAIO_QBH_TTH_2_3
+SL: 1
+       -------------------      
+
+2024/09/03 23:21:57 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:21:57 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:21:57 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:21:57 chat_main_asyncio,line: 34     INFO | InputText: máy giặt
+2024/09/03 23:21:57 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:21:57 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:21:57 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:21:57 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:21:57 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:21:58 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:21:59 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:21:59 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/03 23:21:59 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.004s]
+2024/09/03 23:21:59 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *máy giặt aqua 9 kg aqw-f91gt.s - Mã: M&EGD000250
+  Thông số sản phẩm: • loại máy giặt: cửa trên
+• lồng giặt: lồng đứng
+• khối lượng giặt: 9 kg 
+• số người sử dụng: từ 3 - 5 người
+• kiểu động cơ: truyền động gián tiếp (dây curoa)
+• tốc độ quay vắt tối đa: 700 vòng/phút
+• chất liệu lồng giặt: thép không gỉ
+• chất liệu vỏ máy: kim loại sơn tĩnh điện
+• chất liệu nắp máy: kính chịu lực
+• hiệu suất sử dụng điện: 10.9 wh/kg
+• chương trình giặt: chăn mền, vắt cực khô, giặt mạnh, giặt ngâm, giặt nhanh, giặt nhẹ, giặt thơm, giặt tiêu chuẩn
+• công nghệ giặt: diệt khuẩn khử mùi nano ag+ giặt nhiều luồng nước phun multijet
+• bảng điều khiển: song ngữ anh - việt
+• tiện ích: hẹn giờ giặt, khóa trẻ em, van sử dụng mực nước thấp, vệ sinh lồng giặt
+• kích thước, khối lượng: cao 100.6 cm - ngang 53.3 cm - sâu 58 cm - nặng 36 kg
+• chiều dài ống cấp nước: 128 cm
+• chiều dài ống thoát nước: 77 cm
+ - Giá tiền: 4,890,000 đ*
+
+2. *máy giặt electrolux ultimatecare 500 inverter ewf1024p5sb - Mã: 128004000003
+  Thông số sản phẩm: loại máy giặt: cửa trước 
+lồng giặt: lồng ngang
+khối lượng giặt: 10 kg
+số người sử dụng: từ 5 - 7 người 
+kiểu động cơ: truyền động gián tiếp (dây curoa)
+tốc độ quay vắt tối đa: 1200 vòng/phút
+chất liệu lồng giặt: thép không gỉ
+chất liệu vỏ máy: kim loại sơn tĩnh điện
+chất liệu nắp máy: nhựa + kính cường lực, thép
+sản xuất tại: thái lan
+thời gian bảo hành động cơ: 10 năm
+hiệu suất sử dụng điện: 16.5 wh/kg
+loại inverter: công nghệ ecoinverterchương trình giặt: chế độ yêu thích, giặt 60 phút, đồ trải giường, giặt nhanh 15 phút, giặt nhanh 39 phút, giặt tiết kiệm, vắt, vệ sinh lồng giặt, xả + vắt, đồ cotton, đồ hỗn hợp, đồ len, đồ mỏng, đồ thể thao, đồ trẻ em
+công nghệ giặt: công nghệ giặt hơi nước hygienic carecông nghệ ultramix hoà tan nước giặt hiệu quả
+bảng điều khiển: song ngữ anh - việt có nút xoay, cảm ứng và màn hình hiển thịtiện ích: chỉnh nhiệt độ nước, chỉnh số vòng vắt, khóa trẻ em, lưu chương trình yêu thích, quản lý thời gian, thêm quần áo khi máy đang giặt, trì hoãn kết thúc, xả thêm, chế độ giặt sơ tự động
+kích thước, khối lượng: cao 85 cm - ngang 60 cm - sâu 65.5 cm - nặng 76 kg
+chiều dài ống cấp nước: 134 cmchiều dài ống thoát nước: 209 cm
+ - Giá tiền: 10,516,000 đ*
+
+3. *máy giặt aqua cửa trên - 10kg aqw-u100ft.bk - Mã: 128003000002
+  Thông số sản phẩm: loại máy giặt: lồng đứng
+động cơ : curoa
+khối lượng giặt: 10 kg
+lồng giặtthép không gỉ
+khử mùi diệt khuẩn
+khóa trẻ em
+màn hình hiển thị thời gian
+nắp máynắp kính cường lực tràn viền
+dòng điện : 220v/50hz
+tốc độ vắt: 700 vòng/phút
+kích thước (r*s*c)560 x 630 x 1006
+trọng lượng: 36,5 kg
+sản xuất tại việt nam
+bảo hành: 24 tháng
+ - Giá tiền: 5,158,000 đ*
+
+4. *máy giặt aqua cửa trên - 8kg aqw-ks80gt.s - Mã: 128003000001
+  Thông số sản phẩm: cửa trên - lồng đứng
+khối lượng giặt: 8 kg
+kiểu động cơ: truyền động gián tiếp (dây curoa)
+tốc độ quay vắt tối đa: 775 vòng/ phút
+chất liệu lồng giặt: thép không gỉ
+chất liệu vỏ máy: kim loại sơn tĩnh điện
+chất liệu nắp máy: nhựa abs + kính
+thời gian bảo hành động cơ:2 năm
+hiệu suất sử dụng điện: 11.3 wh/kg
+mâm giặt kháng khuẩn abt
+bảng điều khiển: song ngữ anh - việt có nút nhấn
+khóa trẻ em
+tự khởi động lại khi có điện
+van sử dụng mực nước thấp
+cao 93 cm - ngang 52.7 cm - sâu 56.9 cm - nặng 30.1 kg
+ - Giá tiền: 4,013,000 đ*
+
+2024/09/03 23:21:59 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:22:05 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:22:05 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về máy giặt:
+
+1. Máy giặt Aqua 9 kg AQW-F91GT.S - Mã: M&EGD000250  
+   - Loại máy giặt: Cửa trên  
+   - Lồng giặt: Lồng đứng  
+   - Khối lượng giặt: 9 kg  
+   - Tốc độ quay vắt tối đa: 700 vòng/phút  
+   - Chất liệu lồng giặt: Thép không gỉ  
+   - Chất liệu vỏ máy: Kim loại sơn tĩnh điện  
+   - Kích thước: Cao 100.6 cm - Ngang 53.3 cm - Sâu 58 cm  
+   - Bảo hành: 24 tháng  
+   - Giá tiền: 4,890,000 đ  
+
+2. Máy giặt Electrolux UltimateCare 500 Inverter EWF1024P5SB - Mã: 128004000003  
+   - Loại máy giặt: Cửa trước  
+   - Lồng giặt: Lồng ngang  
+   - Khối lượng giặt: 10 kg  
+   - Tốc độ quay vắt tối đa: 1200 vòng/phút  
+   - Chất liệu lồng giặt: Thép không gỉ  
+   - Kích thước: Cao 85 cm - Ngang 60 cm - Sâu 65.5 cm  
+   - Bảo hành động cơ: 10 năm  
+   - Giá tiền: 10,516,000 đ  
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/03 23:22:05 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:22:05 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về máy giặt:
+
+1. Máy giặt Aqua 9 kg AQW-F91GT.S - Mã: M&EGD000250  
+   - Loại máy giặt: Cửa trên  
+   - Lồng giặt: Lồng đứng  
+   - Khối lượng giặt: 9 kg  
+   - Tốc độ quay vắt tối đa: 700 vòng/phút  
+   - Chất liệu lồng giặt: Thép không gỉ  
+   - Chất liệu vỏ máy: Kim loại sơn tĩnh điện  
+   - Kích thước: Cao 100.6 cm - Ngang 53.3 cm - Sâu 58 cm  
+   - Bảo hành: 24 tháng  
+   - Giá tiền: 4,890,000 đ  
+
+2. Máy giặt Electrolux UltimateCare 500 Inverter EWF1024P5SB - Mã: 128004000003  
+   - Loại máy giặt: Cửa trước  
+   - Lồng giặt: Lồng ngang  
+   - Khối lượng giặt: 10 kg  
+   - Tốc độ quay vắt tối đa: 1200 vòng/phút  
+   - Chất liệu lồng giặt: Thép không gỉ  
+   - Kích thước: Cao 85 cm - Ngang 60 cm - Sâu 65.5 cm  
+   - Bảo hành động cơ: 10 năm  
+   - Giá tiền: 10,516,000 đ  
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/03 23:33:12 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:33:12 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:33:12 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:33:12 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 23:33:12 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 23:33:12 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm ấm đun nước AIO smart: 
+Tên Kho: Kho  HNI Trung tâm Đống Đa - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_11
+SL: 14
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Đống Đa - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_11
+SL: 41
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hai Bà Trưng - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_12
+SL: 16
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hai Bà Trưng - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_12
+SL: 29
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hoàng Mai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_7
+SL: 1
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hoàng Mai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_7
+SL: 54
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hà Đông - Thanh Oai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_16_18
+SL: 17
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Hà Đông - Thanh Oai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_16_18
+SL: 21
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Sóc Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_3
+SL: 44
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Sóc Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_3
+SL: 47
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Nam Từ Liêm - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_30
+SL: 39
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Nam Từ Liêm - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_30
+SL: 33
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Đông Anh - Mê Linh - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_2_4
+SL: 34
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Đông Anh - Mê Linh - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_2_4
+SL: 42
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Thường Tín - Phú Xuyên - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_19_20
+SL: 38
+       -------------------      
+Tên Kho: Kho  HNI Trung tâm Thường Tín - Phú Xuyên - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_19_20
+SL: 47
+       -------------------      
+
+2024/09/03 23:37:32 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:37:32 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:37:32 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:37:32 chat_main_asyncio,line: 34     INFO | InputText: sản phẩm ấm đun nước có giá thấp nhất
+2024/09/03 23:37:32 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:37:32 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:37:32 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:37:32 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:37:32 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:37:33 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:37:34 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:37:34 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 23:37:34 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.027s]
+2024/09/03 23:37:34 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *ấm đun nước bluestone ktb-3417 1,7 lít 2200w - Mã: M&EAD100002
+  Thông số sản phẩm: • công suất: 1850 - 2200w
+• dung tích: 1.7 lít
+• chất liệu ruột bình: nhựa pp (không chứa bpa)
+• chất liệu vỏ bình: nhựa pp
+• đế tiếp điện: strix
+• thương hiệu của: singapore
+• chế độ an toàn: tự ngắt khi nước sôi và khi cạn nước
+• tiện ích: lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ
+ - Giá tiền: 316,000 đ*
+
+2. *ấm đun nước aio smart aiokto2l23w/1c5 (màu đen) - Mã: M&EGD000241
+  Thông số sản phẩm: màu sắc : đen, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóngđế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôitự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mm khối lượng sản phẩm: 1.0 kg thời gian bảo hành: 12 tháng kích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+3. *ấm đun nước aio smart aiokto2l23w/1c5 (màu trắng) - Mã: M&EGD000242
+  Thông số sản phẩm: màu sắc : trắng, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóng đế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôi tự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mmkhối lượng sản phẩm: 1.0 kgthời gian bảo hành: 12 thángkích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+2024/09/03 23:37:34 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:37:37 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:37:37 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về sản phẩm ấm đun nước có giá thấp nhất:
+
+1. Ấm đun nước Bluestone KTB-3417 - Mã: M&EAD100002  
+   - Công suất: 1850 - 2200W  
+   - Dung tích: 1.7 lít  
+   - Chất liệu ruột bình: nhựa PP (không chứa BPA)  
+   - Chất liệu vỏ bình: nhựa PP  
+   - Đế tiếp điện: Strix  
+   - Chế độ an toàn: tự ngắt khi nước sôi và khi cạn nước  
+   - Tiện ích: lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ  
+   - Giá tiền: 316,000 đ  
+
+Nếu Anh/chị cần thêm thông tin chi tiết về sản phẩm, hãy cho tôi biết!
+2024/09/03 23:37:37 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:37:37 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về sản phẩm ấm đun nước có giá thấp nhất:
+
+1. Ấm đun nước Bluestone KTB-3417 - Mã: M&EAD100002  
+   - Công suất: 1850 - 2200W  
+   - Dung tích: 1.7 lít  
+   - Chất liệu ruột bình: nhựa PP   
+   - Chất liệu vỏ bình: nhựa PP  
+   - Đế tiếp điện: Strix  
+   - Chế độ an toàn: tự ngắt khi nước sôi và khi cạn nước  
+   - Tiện ích: lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ  
+   - Giá tiền: 316,000 đ  
+
+Nếu Anh/chị cần thêm thông tin chi tiết về sản phẩm, hãy cho tôi biết!
+2024/09/03 23:40:20 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:40:20 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:40:20 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:40:20 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 23:40:20 main_run,line: 199     INFO | ---results---: Xin chào! Là AI trợ lý tại AIO đây. Tôi vẫn đang trong giai đoạn phát triển và có thể không hoàn hảo. Hãy giúp tôi cải thiện bằng cách phản hồi về trải nghiệm của bạn. Tôi có thể hỗ trợ bạn gì về chính sách hoặc thông tin sản phẩm hôm nay?
+2024/09/03 23:40:33 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:40:33 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:40:33 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:40:33 chat_main_asyncio,line: 34     INFO | InputText: bình đun nước có giá cao nhất
+2024/09/03 23:40:33 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:40:33 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:40:33 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:40:33 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:40:33 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:40:35 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:40:36 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:40:36 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/03 23:40:36 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.004s]
+2024/09/03 23:40:36 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *ấm đun nước bluestone ktb-3417 1,7 lít 2200w - Mã: M&EAD100002
+  Thông số sản phẩm: • công suất: 1850 - 2200w
+• dung tích: 1.7 lít
+• chất liệu ruột bình: nhựa pp (không chứa bpa)
+• chất liệu vỏ bình: nhựa pp
+• đế tiếp điện: strix
+• thương hiệu của: singapore
+• chế độ an toàn: tự ngắt khi nước sôi và khi cạn nước
+• tiện ích: lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ
+ - Giá tiền: 316,000 đ*
+
+2. *ấm đun nước aio smart aiokto2l23w/1c5 (màu đen) - Mã: M&EGD000241
+  Thông số sản phẩm: màu sắc : đen, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóngđế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôitự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mm khối lượng sản phẩm: 1.0 kg thời gian bảo hành: 12 tháng kích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+3. *ấm đun nước aio smart aiokto2l23w/1c5 (màu trắng) - Mã: M&EGD000242
+  Thông số sản phẩm: màu sắc : trắng, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóng đế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôi tự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mmkhối lượng sản phẩm: 1.0 kgthời gian bảo hành: 12 thángkích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+2024/09/03 23:40:36 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:40:37 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:40:37 chat,line: 160     INFO | +LLM out+:
+Xin lỗi, em không có thông tin về giá cả của các sản phẩm. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/03 23:40:37 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:40:37 main_run,line: 199     INFO | ---results---: Xin lỗi, em không có thông tin về giá cả của các sản phẩm. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/03 23:44:08 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:44:08 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:44:08 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:44:08 chat_main_asyncio,line: 34     INFO | InputText: đèn năng lượng mặt trời có giá thấp nhất
+2024/09/03 23:44:08 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:44:08 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:44:08 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:44:08 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:44:08 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:44:09 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:44:10 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:44:10 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 23:44:11 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.013s]
+2024/09/03 23:44:11 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *dây cáp nguồn dùng cho đèn năng lượng mặt trời, dài 5m - Mã: SMDMT000013
+  Thông số sản phẩm: nối dài thêm 5m từ tấm pin năng lượng mặt trời vào các thiết bị cần sạc (5m kèm theo tấm pin + 5m nối dài = 10m)
+chuẩn ip-67 chống nước, chống bụi.
+ - Giá tiền: 74,000 đ*
+
+2. *bộ đèn pha led dùng pin năng lượng mặt trời suntek sc-126 - Mã: SMDEN000053
+  Thông số sản phẩm: • công suất định mức: 50w
+• bảng điều khiển năng lượng mặt trời: polycrystal 6w
+• nhiệt độ làm việc: -20c ~ 65c
+• nhiệt độ màu: 6500k
+• thời gian chiếu sáng: 5-6h liên tục
+• pin: 4.500mah
+• kích thước đèn: 10 x 17 cm
+• kích thước tấm năng lượng mặt trời: 13.5 x 2 x 23 cm
+• cân nặng: 0.5kg
+ - Giá tiền: 335,000 đ*
+
+3. *đèn nlmt xách tay 60w - Mã: SMSMH000066
+  Thông số sản phẩm: • công suất: 60w
+• kích thước tấm pin năng lượng mặt trời: 360mm*520mm*17mm
+• tính năng đèn: kiểm soát ánh sáng + điều khiển đặt thời gian
+• chất liệu đèn: nhôm đúc chống oxy hóa + kính cường lực
+• dung lượng pin :18000 mah pin lithium sắt phosphate
+• bố trí sản phẩm: dây chống nước 5m, điều khiển hẹn thời gian, ốc vít giãn nở
+• mức độ ánh sáng: sáng mạnh, sáng yếu
+• thời gian chiếu sáng: 3h/5h/8h
+• loại mắt led: 5630/180mắt led lumen: 2250
+ - Giá tiền: 402,000 đ*
+
+4. *đèn led năng lượng mặt trời. hiệu:suntek. model:shl-01 - Mã: SMDMT000009
+  Thông số sản phẩm: công suất đèn: 5w
+bảng điều khiển năng lượng mặt trời: polycrystal 5v/4w
+nhiệt độ làm việc: -20c ~ 65c
+nhiệt độ mầu: 6500k
+thời gian chiếu sáng: 11-12h liên tục
+pin: 2.400mah(li-ion 18650)
+kích thước đèn: 15 x 4.5 cm
+kích thước tấm năng lượng mặt trời: 17.3 x 16.5 x 13 cm
+cân nặng: 0.7kg
+ - Giá tiền: 415,000 đ*
+
+2024/09/03 23:44:11 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:44:14 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:44:14 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về đèn năng lượng mặt trời có giá thấp nhất:
+
+1. Đèn LED năng lượng mặt trời - Hiệu: Suntek, Model: SHL-01 - Mã: SMDMT000009
+   - Công suất đèn: 5W
+   - Bảng điều khiển năng lượng mặt trời: Polycrystal 5V/4W
+   - Nhiệt độ làm việc: -20°C ~ 65°C
+   - Nhiệt độ màu: 6500K
+   - Thời gian chiếu sáng: 11-12h liên tục
+   - Pin: 2.400mAh (Li-ion 18650)
+   - Kích thước đèn: 15 x 4.5 cm
+   - Kích thước tấm năng lượng mặt trời: 17.3 x 16.5 x 13 cm
+   - Cân nặng: 0.7kg
+   - Giá tiền: 415,000 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về sản phẩm, hãy cho tôi biết!
+2024/09/03 23:44:14 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:44:14 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về đèn năng lượng mặt trời có giá thấp nhất:
+
+1. Đèn LED năng lượng mặt trời - Hiệu: Suntek, Model: SHL-01 - Mã: SMDMT000009
+   - Công suất đèn: 5W
+   - Bảng điều khiển năng lượng mặt trời: Polycrystal 5V/4W
+   - Nhiệt độ làm việc: -20°C ~ 65°C
+   - Nhiệt độ màu: 6500K
+   - Thời gian chiếu sáng: 11-12h liên tục
+   - Pin: 2.400mAh 
+   - Kích thước đèn: 15 x 4.5 cm
+   - Kích thước tấm năng lượng mặt trời: 17.3 x 16.5 x 13 cm
+   - Cân nặng: 0.7kg
+   - Giá tiền: 415,000 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về sản phẩm, hãy cho tôi biết!
+2024/09/03 23:55:27 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:55:27 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:55:27 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:55:27 chat_main_asyncio,line: 34     INFO | InputText: chính sách bán lẻ ấm đun nước VCC
+2024/09/03 23:55:27 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:55:27 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:55:27 chat,line: 100     INFO | +rasa out+:
+Anh/chị xin thông cảm! Em không hiểu yêu cầu đưa ra.
+2024/09/03 23:55:27 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:55:27 main_run,line: 199     INFO | ---results---: Anh/chị xin thông cảm! Em không hiểu yêu cầu đưa ra.
+2024/09/04 08:45:50 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 08:45:50 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 08:45:50 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 08:45:50 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 08:45:50 main_run,line: 177     INFO | ---Inventory---
+2024/09/04 08:45:58 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm aio 300: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+

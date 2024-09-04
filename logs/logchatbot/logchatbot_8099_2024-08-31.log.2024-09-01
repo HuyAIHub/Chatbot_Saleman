@@ -1,0 +1,66 @@
+2024/09/02 16:02:41 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/02 16:02:41 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/02 16:02:41 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/02 16:02:41 chat_main_asyncio,line: 34     INFO | InputText: xem giúp Tôi lỗi đóng Hợp đồng dưới
+2024/09/02 16:02:41 main_run,line: 131     INFO | ---ChatText---
+2024/09/02 16:02:41 chat,line: 81     INFO | =====rasa=====
+2024/09/02 16:02:41 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/02 16:02:41 chat,line: 102     INFO | ====rasa done!====
+2024/09/02 16:02:41 chat,line: 106     INFO | =====LLM=====
+2024/09/02 16:02:43 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/02 16:02:43 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/02 16:02:43 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/02 16:02:44 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.004s]
+2024/09/02 16:02:44 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *usb, camera hội nghị 4k, tích hợp mic và loa uc s05 - Mã: ITICT003634
+  Thông số sản phẩm: • độ phân giải: fps 4k ultra-hd
+• góc nhìn: 120°
+• khả năng zoom: lên đến 15x
+• kết nối: usb-c camera tích hợp micro
+• tích hợp: 6 micro array
+• phạm vi hoạt động của loa: 8m - thích hợp cho phòng họp lớn
+• công suất loa: 8w
+• cảm biến: 12mp 1/2.3inch
+ - Giá tiền: 10,802,000 đ*
+
+2. *lọc nước tổng empire 1 trụ lọc tổng hợp - cơ. model: e-cps01-c - Mã: 123001000007
+  Thông số sản phẩm: thương hiệu : empire 
+công suất lọc: 800-1000 lít/ giờ 
+model: e-cps01-c 
+ứng dụng: nước máy hoặc nước giếng khoan có chứa các tạp chất, gỉ rác màu đục và có mùi trụ lọc tổng hợp sẽ lọc sạch tạp chất, khử mùi và hấp thụ clo dư trong nước máy. 
+cấu tạo: cát thạch anh, sỏi thạch anh, than hoạt tính. 
+nguyên lý hoạt động: các nguyên vật liệu được đổ theo cấu tạo 5 tầng lọc, nước cấp vào trụ lọc qua van sẽ thẩm thấu qua các tầng lọc xuống dưới trụ lọc sau đó đi qua các lỗ lưới lọc để chảy ngược về van điều khiển ra nguồn nước sạch.
+ - Giá tiền: 2,714,000 đ*
+
+2024/09/02 16:02:44 chat,line: 62     INFO | ==Conversation==
+2024/09/02 16:02:45 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/02 16:02:45 chat,line: 160     INFO | +LLM out+:
+Xin lỗi, em không có thông tin về câu trả lời. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/02 16:02:45 chat,line: 162     INFO | =====LLM done!=====
+2024/09/02 16:02:45 main_run,line: 199     INFO | ---results---: Xin lỗi, em không có thông tin về câu trả lời. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/03 13:27:37 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 13:27:37 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 13:27:37 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 13:27:37 chat_main_asyncio,line: 34     INFO | InputText: lỗi yctz
+2024/09/03 13:27:37 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 13:27:37 chat,line: 81     INFO | =====rasa=====
+2024/09/03 13:27:37 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 13:27:37 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 13:27:37 chat,line: 106     INFO | =====LLM=====
+2024/09/03 13:27:38 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 13:27:39 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 13:27:39 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/03 13:27:39 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.002s]
+2024/09/03 13:27:39 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+trong database không có câu trả lời, hãy dựa vào lịch sử trò chuyện trước để trả lời:
+2024/09/03 13:27:39 chat,line: 62     INFO | ==Conversation==
+2024/09/03 13:27:40 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 13:27:40 chat,line: 160     INFO | +LLM out+:
+Xin lỗi, em không có thông tin về lỗi YCTZ. Anh/chị hãy tham khảo thông tin từ hướng dẫn sử dụng hoặc liên hệ với trung tâm bảo hành để được hỗ trợ tốt nhất!
+2024/09/03 13:27:40 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 13:27:40 main_run,line: 199     INFO | ---results---: Xin lỗi, em không có thông tin về lỗi YCTZ. Anh/chị hãy tham khảo thông tin từ hướng dẫn sử dụng hoặc liên hệ với trung tâm bảo hành để được hỗ trợ tốt nhất!

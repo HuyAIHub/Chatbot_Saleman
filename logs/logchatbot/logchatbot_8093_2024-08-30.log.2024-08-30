@@ -1,0 +1,365 @@
+2024/08/31 20:02:18 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/31 20:02:18 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/31 20:02:18 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/31 20:02:18 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/08/31 20:02:18 main_run,line: 199     INFO | ---results---: Chào bạn! Tôi là AI hỗ trợ của AIO. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mọi góp ý của bạn đều giúp tôi ngày càng hoàn thiện. Tôi có thể giúp gì cho bạn về các vấn đề chính sách hoặc tìm kiếm thông tin sản phẩm hôm nay?
+2024/08/31 21:40:32 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/31 21:40:32 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/31 21:40:32 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/31 21:40:32 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/08/31 21:40:32 main_run,line: 199     INFO | ---results---: Xin chào! Là AI trợ lý tại AIO đây. Tôi vẫn đang trong giai đoạn phát triển và có thể không hoàn hảo. Hãy giúp tôi cải thiện bằng cách phản hồi về trải nghiệm của bạn. Tôi có thể hỗ trợ bạn gì về chính sách hoặc thông tin sản phẩm hôm nay?
+2024/09/01 07:28:15 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 07:28:15 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 07:28:15 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 07:28:15 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 07:28:15 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 07:28:19 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm đèn NLMT 1 pha 40w: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/01 07:28:35 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 07:28:35 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 07:28:35 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 07:28:35 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 07:28:35 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 07:28:38 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm đèn NLMT 1 pha: 
+Hiện hàng tại dcn đã hết. Các khu vực sau còn hàng Anh/chị hãy liên hệ các CNCT sau: 
+
++ + + CNCT: BPC + + +
+1. Kho  BPC Trung tâm Chơn Thành - Kinh doanh GPTH
+Mã kho: MKAIO_BPC_TTH_2
+SL: 1
+      -------------------     
+
+
++ + + CNCT: DLK + + +
+1. Kho  DLK Trung tâm Cư Mgar - Buôn Đôn - Ea Súp - Kinh doanh GPTH
+Mã kho: MKAIO_DLK_TTH_2_3_4
+SL: 1
+      -------------------     
+2. Kho  DLK Trung tâm Krông Búk - Ea Hleo - Krông Năng - Kinh doanh GPTH
+Mã kho: MKAIO_DLK_TTH_5_6_7
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BTN + + +
+1. Kho CNCT BTN - Kinh doanh GPTH
+Mã kho: MKBTN001009
+SL: 1
+      -------------------     
+2. Kho  BTN Trung tâm Hàm Thuận Bắc - Kinh doanh GPTH
+Mã kho: MKAIO_BTN_TTH_4
+SL: 1
+      -------------------     
+3. Kho  BTN Trung tâm Hàm Thuận Bắc - Kinh doanh GPTH
+Mã kho: MKAIO_BTN_TTH_4
+SL: 1
+      -------------------     
+4. Kho  BTN Trung tâm Tuy Phong - Bắc Bình - Kinh doanh GPTH
+Mã kho: MKAIO_BTN_TTH_2_3
+SL: 1
+      -------------------     
+5. Kho  BTN Trung tâm Đức Linh - Tánh Linh - Kinh doanh GPTH
+Mã kho: MKAIO_BTN_TTH_9_8
+SL: 1
+      -------------------     
+6. Kho  BTN Trung tâm Phan Thiết - Phú Quý - Kinh doanh GPTH
+Mã kho: MKAIO_BTN_TTH_1_10
+SL: 4
+      -------------------     
+
+
++ + + CNCT: DNI + + +
+1. Kho  DNI Trung tâm Cẩm Mỹ - Xuân Lộc - Kinh doanh GPTH
+Mã kho: MKAIO_DNI_TTH_5_11
+SL: 2
+      -------------------     
+2. Kho  DNI Trung tâm Thống Nhất - Long Khánh - Kinh doanh GPTH
+Mã kho: MKAIO_DNI_TTH_2_6
+SL: 1
+      -------------------     
+3. Kho  DNI Trung tâm Trảng Bom - Vĩnh Cửu - Kinh doanh GPTH
+Mã kho: MKAIO_DNI_TTH_7_10
+SL: 3
+      -------------------     
+
+
++ + + CNCT: VTU + + +
+1. Kho CNCT VTU - Kinh doanh GPTH
+Mã kho: MKVTU001009
+SL: 1
+      -------------------     
+2. Kho CNCT VTU - Kinh doanh GPTH
+Mã kho: MKVTU001009
+SL: 1
+      -------------------     
+3. Kho  VTU Trung tâm Xuyên Mộc - Đất Đỏ - Kinh doanh GPTH
+Mã kho: MKAIO_VTU_TTH_6_7
+SL: 1
+      -------------------     
+
+
++ + + CNCT: NTN + + +
+1. Kho CNCT NTN - Kinh doanh GPTH
+Mã kho: MKNTN001009
+SL: 20
+      -------------------     
+2. Kho  NTN Trung tâm Ninh Phước - Thuận Nam - Kinh doanh GPTH
+Mã kho: MKAIO_NTN_TTH_3_7
+SL: 4
+      -------------------     
+
+
++ + + CNCT: TGG + + +
+1. Kho CNCT TGG - Kinh doanh GPTH
+Mã kho: MKTGG001009
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BTE + + +
+1. Kho CNCT BTE - Kinh doanh GPTH
+Mã kho: MKBTE001009
+SL: 3
+      -------------------     
+
+
++ + + CNCT: TVH + + +
+1. Kho CNCT TVH - Kinh doanh GPTH
+Mã kho: MKTVH001009
+SL: 1
+      -------------------     
+2. Kho CNCT TVH - Kinh doanh GPTH
+Mã kho: MKTVH001009
+SL: 1
+      -------------------     
+3. Kho CNCT TVH - Kinh doanh GPTH
+Mã kho: MKTVH001009
+SL: 1
+      -------------------     
+4. Kho  TVH Trung tâm Càng Long - Cầu Kè - Kinh doanh GPTH
+Mã kho: MKAIO_TVH_TTH_7_2
+SL: 3
+      -------------------     
+5. Kho  TVH Trung tâm Càng Long - Cầu Kè - Kinh doanh GPTH
+Mã kho: MKAIO_TVH_TTH_7_2
+SL: 2
+      -------------------     
+6. Kho  TVH Trung tâm Trà Cú - Tiểu Cần - Kinh doanh GPTH
+Mã kho: MKAIO_TVH_TTH_4_3
+SL: 1
+      -------------------     
+
+
++ + + CNCT: KTM + + +
+1. Kho CNCT KTM - Kinh doanh GPTH
+Mã kho: MKKTM001009
+SL: 3
+      -------------------     
+
+
++ + + CNCT: CTO + + +
+1. Kho  CTO Trung tâm Ô Môn - Thốt Nốt - Kinh doanh GPTH
+Mã kho: MKAIO_CTO_TTH_5_9
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BDH + + +
+1. Kho  BDH Trung tâm Hoài Nhơn - Hoài Ân - An Lão - Kinh doanh GPTH
+Mã kho: MKAIO_BDH_TTH_7_8_11
+SL: 1
+      -------------------     
+
+
++ + + CNCT: HUG + + +
+1. Kho CNCT HUG - Kinh doanh GPTH
+Mã kho: MKHUG001009
+SL: 3
+      -------------------     
+2. Kho  HUG Trung tâm Châu Thành - Châu Thành A - Kinh doanh GPTH
+Mã kho: MKAIO_HUG_TTH_5_6
+SL: 2
+      -------------------     
+3. Kho  HUG Trung tâm Châu Thành - Châu Thành A - Kinh doanh GPTH
+Mã kho: MKAIO_HUG_TTH_5_6
+SL: 2
+      -------------------     
+4. Kho  HUG Trung tâm TX Long Mỹ - Long Mỹ - Kinh doanh GPTH
+Mã kho: MKAIO_HUG_TTH_3
+SL: 3
+      -------------------     
+
+
++ + + CNCT: STG + + +
+1. Kho CNCT STG - Kinh doanh GPTH
+Mã kho: MKSTG001009
+SL: 2
+      -------------------     
+2. Kho  STG Trung tâm Sóc Trăng - Mỹ Xuyên - Kinh doanh GPTH
+Mã kho: MKAIO_STG_TTH_1_3
+SL: 1
+      -------------------     
+3. Kho  STG Trung tâm Trần Đề - Vĩnh Châu - Kinh doanh GPTH
+Mã kho: MKAIO_STG_TTH_9_11
+SL: 1
+      -------------------     
+
+
++ + + CNCT: KGG + + +
+1. Kho  KGG Trung tâm Châu Thành - Tân Hiệp - Kinh doanh GPTH
+Mã kho: MKAIO_KGG_TTH_2_3
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BLU + + +
+1. Kho CNCT BLU - Kinh doanh GPTH
+Mã kho: MKBLU001009
+SL: 3
+      -------------------     
+2. Kho CNCT BLU - Kinh doanh GPTH
+Mã kho: MKBLU001009
+SL: 4
+      -------------------     
+3. Kho CNCT BLU - Kinh doanh GPTH
+Mã kho: MKBLU001009
+SL: 3
+      -------------------     
+4. Kho  BLU Trung tâm Bạc Liêu - Kinh doanh GPTH
+Mã kho: MKAIO_BLU_TTH_1
+SL: 5
+      -------------------     
+5. Kho  BLU Trung tâm Bạc Liêu - Kinh doanh GPTH
+Mã kho: MKAIO_BLU_TTH_1
+SL: 2
+      -------------------     
+6. Kho  BLU Trung tâm Giá Rai - Đông Hải - Kinh doanh GPTH
+Mã kho: MKAIO_BLU_TTH_4_5
+SL: 1
+      -------------------     
+
+
++ + + CNCT: DNG + + +
+1. Kho  DNG Trung tâm Sơn Trà - Ngũ Hành Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_DNG_TTH_6_5
+SL: 1
+      -------------------     
+
+
++ + + CNCT: QTI + + +
+1. Kho  QTI Trung tâm Đông Hà - Cam Lộ - Kinh doanh GPTH
+Mã kho: MKAIO_QTI_TTH_1_5
+SL: 1
+      -------------------     
+2. Kho  QTI Trung tâm Hướng Hóa - Dakrong - Kinh doanh GPTH
+Mã kho: MKAIO_QTI_TTH_3_4
+SL: 4
+      -------------------     
+3. Kho  QTI Trung tâm Triệu Phong - Hải Lăng - Kinh doanh GPTH
+Mã kho: MKAIO_QTI_TTH_2_6_7
+SL: 1
+      -------------------     
+4. Kho  QTI Trung tâm Triệu Phong - Hải Lăng - Kinh doanh GPTH
+Mã kho: MKAIO_QTI_TTH_2_6_7
+SL: 2
+      -------------------     
+5. Kho  QTI Trung tâm Triệu Phong - Hải Lăng - Kinh doanh GPTH
+Mã kho: MKAIO_QTI_TTH_2_6_7
+SL: 2
+      -------------------     
+
+
++ + + CNCT: QBH + + +
+1. Kho CNCT QBH - Kinh doanh GPTH
+Mã kho: MKQBH001009
+SL: 3
+      -------------------     
+2. Kho  QBH Trung tâm Bố Trạch - Kinh doanh GPTH
+Mã kho: MKAIO_QBH_TTH_4
+SL: 1
+      -------------------     
+3. Kho  QBH Trung tâm Quảng Trạch - Kinh doanh GPTH
+Mã kho: MKAIO_QBH_TTH_5
+SL: 1
+      -------------------     
+
+
++ + + CNCT: NAN + + +
+1. Kho CNCT NAN - Kinh doanh GPTH
+Mã kho: MKNAN001009
+SL: 2
+      -------------------     
+
+
++ + + CNCT: NDH + + +
+1. Kho CNCT NDH - Kinh doanh GPTH
+Mã kho: MKNDH001009
+SL: 1
+      -------------------     
+
+
++ + + CNCT: TBH + + +
+1. Kho CNCT TBH - Kinh doanh GPTH
+Mã kho: MKTBH001009
+SL: 2
+      -------------------     
+2. Kho  TBH Trung tâm Hưng Hà - Quỳnh Phụ - Kinh doanh GPTH
+Mã kho: MKAIO_TBH_TTH_7_8
+SL: 7
+      -------------------     
+
+
++ + + CNCT: HYN + + +
+1. Kho CNCT HYN - Kinh doanh GPTH
+Mã kho: MKHYN001009
+SL: 7
+      -------------------     
+2. Kho CNCT HYN - Kinh doanh GPTH
+Mã kho: MKHYN001009
+SL: 6
+      -------------------     
+3. Kho  HYN Trung tâm Ân Thi - Phù Cừ - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_7_10
+SL: 3
+      -------------------     
+4. Kho  HYN Trung tâm Ân Thi - Phù Cừ - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_7_10
+SL: 3
+      -------------------     
+5. Kho  HYN Trung tâm Khoái Châu - Kim Động - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_6_8
+SL: 1
+      -------------------     
+6. Kho  HYN Trung tâm Thành phố - Tiên Lữ - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_1_9
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BGG + + +
+1. Kho CNCT BGG - Kinh doanh GPTH
+Mã kho: MKBGG001009
+SL: 5
+      -------------------     
+2. Kho CNCT BGG - Kinh doanh GPTH
+Mã kho: MKBGG001009
+SL: 6
+      -------------------     
+
+
++ + + CNCT: VPC + + +
+1. Kho CNCT VPC - Kinh doanh GPTH
+Mã kho: MKVPC001009
+SL: 1
+      -------------------     
+
+
+2024/09/01 15:54:31 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 15:54:31 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 15:54:31 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 15:54:31 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 15:54:31 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 15:54:32 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm đèn năng lượng mặt trời: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+

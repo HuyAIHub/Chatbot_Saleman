@@ -1,0 +1,558 @@
+2024/09/03 22:40:04 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 22:40:04 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 22:40:04 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 22:40:04 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 22:40:04 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 22:40:07 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm MKHNI001009: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/03 22:50:12 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 22:50:12 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 22:50:12 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 22:50:12 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 22:50:12 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!
+2024/09/03 23:39:54 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:39:54 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:39:54 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:39:54 chat_main_asyncio,line: 34     INFO | InputText: giá bình đun nước cao nhất
+2024/09/03 23:39:54 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:39:54 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:39:55 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:39:55 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:39:55 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:39:55 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:39:56 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:39:56 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 23:39:57 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.013s]
+2024/09/03 23:39:57 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *ấm đun nước bluestone ktb-3417 1,7 lít 2200w - Mã: M&EAD100002
+  Thông số sản phẩm: • công suất: 1850 - 2200w
+• dung tích: 1.7 lít
+• chất liệu ruột bình: nhựa pp (không chứa bpa)
+• chất liệu vỏ bình: nhựa pp
+• đế tiếp điện: strix
+• thương hiệu của: singapore
+• chế độ an toàn: tự ngắt khi nước sôi và khi cạn nước
+• tiện ích: lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ
+ - Giá tiền: 316,000 đ*
+
+2. *ấm đun nước aio smart aiokto2l23w/1c5 (màu đen) - Mã: M&EGD000241
+  Thông số sản phẩm: màu sắc : đen, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóngđế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôitự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mm khối lượng sản phẩm: 1.0 kg thời gian bảo hành: 12 tháng kích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+3. *ấm đun nước aio smart aiokto2l23w/1c5 (màu trắng) - Mã: M&EGD000242
+  Thông số sản phẩm: màu sắc : trắng, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóng đế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôi tự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mmkhối lượng sản phẩm: 1.0 kgthời gian bảo hành: 12 thángkích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+2024/09/03 23:39:57 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:39:57 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:39:57 chat,line: 160     INFO | +LLM out+:
+Xin lỗi, em không có thông tin cụ thể về giá bình đun nước cao nhất. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/03 23:39:57 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:39:57 main_run,line: 199     INFO | ---results---: Xin lỗi, em không có thông tin cụ thể về giá bình đun nước cao nhất. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/03 23:41:01 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:41:01 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:41:01 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:41:01 chat_main_asyncio,line: 34     INFO | InputText: ấm đun nước có giá thấp nhất
+2024/09/03 23:41:01 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:41:01 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:41:01 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:41:01 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:41:01 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:41:02 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:41:03 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:41:03 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 23:41:04 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.010s]
+2024/09/03 23:41:04 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *ấm đun nước bluestone ktb-3417 1,7 lít 2200w - Mã: M&EAD100002
+  Thông số sản phẩm: • công suất: 1850 - 2200w
+• dung tích: 1.7 lít
+• chất liệu ruột bình: nhựa pp (không chứa bpa)
+• chất liệu vỏ bình: nhựa pp
+• đế tiếp điện: strix
+• thương hiệu của: singapore
+• chế độ an toàn: tự ngắt khi nước sôi và khi cạn nước
+• tiện ích: lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ
+ - Giá tiền: 316,000 đ*
+
+2. *ấm đun nước aio smart aiokto2l23w/1c5 (màu đen) - Mã: M&EGD000241
+  Thông số sản phẩm: màu sắc : đen, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóngđế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôitự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mm khối lượng sản phẩm: 1.0 kg thời gian bảo hành: 12 tháng kích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+3. *ấm đun nước aio smart aiokto2l23w/1c5 (màu trắng) - Mã: M&EGD000242
+  Thông số sản phẩm: màu sắc : trắng, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóng đế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôi tự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mmkhối lượng sản phẩm: 1.0 kgthời gian bảo hành: 12 thángkích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+2024/09/03 23:41:04 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:41:08 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:41:08 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về các ấm đun nước có giá thấp nhất:
+
+1. Ấm đun nước Bluestone KTB-3417 - Mã: M&EAD100002  
+   - Công suất: 1850 - 2200w  
+   - Dung tích: 1.7 lít  
+   - Chất liệu ruột bình: Nhựa PP (không chứa BPA)  
+   - Chất liệu vỏ bình: Nhựa PP  
+   - Đế tiếp điện: Strix  
+   - Chế độ an toàn: Tự ngắt khi nước sôi và khi cạn nước  
+   - Tiện ích: Lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ  
+   - Giá tiền: 316,000 đ  
+
+2. Ấm đun nước AIO Smart AIOKTO2L23W/1C5 (màu đen) - Mã: M&EGD000241  
+   - Công suất: 1500w  
+   - Dung tích: 1.5l  
+   - Chất liệu ruột bình: Inox cao cấp SUS304  
+   - Chất liệu vỏ bình: Nhựa PP  
+   - Đế tiếp điện: Xoay 360°  
+   - Chế độ an toàn: Tự động tắt khi nước sôi và khi ấm nước được nhấc khỏi đế  
+   - Giá tiền: 389,000 đ  
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/03 23:41:08 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:41:08 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về các ấm đun nước có giá thấp nhất:
+
+1. Ấm đun nước Bluestone KTB-3417 - Mã: M&EAD100002  
+   - Công suất: 1850 - 2200w  
+   - Dung tích: 1.7 lít  
+   - Chất liệu ruột bình: Nhựa PP   
+   - Chất liệu vỏ bình: Nhựa PP  
+   - Đế tiếp điện: Strix  
+   - Chế độ an toàn: Tự ngắt khi nước sôi và khi cạn nước  
+   - Tiện ích: Lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ  
+   - Giá tiền: 316,000 đ  
+
+2. Ấm đun nước AIO Smart AIOKTO2L23W/1C5  - Mã: M&EGD000241  
+   - Công suất: 1500w  
+   - Dung tích: 1.5l  
+   - Chất liệu ruột bình: Inox cao cấp SUS304  
+   - Chất liệu vỏ bình: Nhựa PP  
+   - Đế tiếp điện: Xoay 360°  
+   - Chế độ an toàn: Tự động tắt khi nước sôi và khi ấm nước được nhấc khỏi đế  
+   - Giá tiền: 389,000 đ  
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/03 23:53:18 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:53:18 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:53:18 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:53:18 chat_main_asyncio,line: 34     INFO | InputText: chính sách bảo hành của đèn năng lượng mặt trời
+2024/09/03 23:53:18 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:53:18 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:53:18 chat,line: 100     INFO | +rasa out+:
+Chính sách bảo hành sản phẩm của chúng tôi bao gồm:
+            1. Chính sách bảo hành 1 đổi 1
+            Thời gian áp dụng: Một đổi một trong vòng 7 ngày kể từ ngày Anh/chị mua hàng và chi phí bảo hành nằm trong 0.5% chi phí giá bán theo quy định TCT.
+            Điều kiện: Áp dụng bảo hành đối với các sản phẩm lỗi nằm trong danh sách sản phẩm của VCC. Sản phẩm đổi trả phải giữ nguyên 100% hình dạng ban đầu và hoàn lại đầy đủ phị kiện. Số điện thoại mua sản phẩm trùng khớp với dữ liệu trên hệ thống ghi nhận.
+            Lưu ý: Không áp dụng hoàn tiền sản phẩm
+            2. Chính sách bảo hành sửa chữa, thay thế linh kiện
+            Thời gian: Áp dụng 12 tháng kể từ ngày Anh/chị mua sản phẩm.
+            Phạm vi: Áp dụng cho các lỗi kỹ thuật do nhà sản xuất. Không bảo hành đối với các trường hợp do sử dụng, sửa chữa không đúng cách hoặc hỏng hóc do nguyên nhân bên ngoài.
+            Điều kiện: Lỗi được xác nhận và kiểm tra bởi nhân sự triển khai tại các CNCT. Số điện thoại mua sản phẩm trùng khớp với dữ liệu trên hệ thống ghi nhận.
+            Lưu ý: Để đảm bảo quyền lợi quý khách cần cung cấp hình ảnh/clip sản phẩm lỗi khi yêu cầu bảo hành.
+2024/09/03 23:53:18 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:53:18 main_run,line: 199     INFO | ---results---: Chính sách bảo hành sản phẩm của chúng tôi bao gồm:
+            1. Chính sách bảo hành 1 đổi 1
+            Thời gian áp dụng: Một đổi một trong vòng 7 ngày kể từ ngày Anh/chị mua hàng và chi phí bảo hành nằm trong 0.5% chi phí giá bán theo quy định TCT.
+            Điều kiện: Áp dụng bảo hành đối với các sản phẩm lỗi nằm trong danh sách sản phẩm của VCC. Sản phẩm đổi trả phải giữ nguyên 100% hình dạng ban đầu và hoàn lại đầy đủ phị kiện. Số điện thoại mua sản phẩm trùng khớp với dữ liệu trên hệ thống ghi nhận.
+            Lưu ý: Không áp dụng hoàn tiền sản phẩm
+            2. Chính sách bảo hành sửa chữa, thay thế linh kiện
+            Thời gian: Áp dụng 12 tháng kể từ ngày Anh/chị mua sản phẩm.
+            Phạm vi: Áp dụng cho các lỗi kỹ thuật do nhà sản xuất. Không bảo hành đối với các trường hợp do sử dụng, sửa chữa không đúng cách hoặc hỏng hóc do nguyên nhân bên ngoài.
+            Điều kiện: Lỗi được xác nhận và kiểm tra bởi nhân sự triển khai tại các CNCT. Số điện thoại mua sản phẩm trùng khớp với dữ liệu trên hệ thống ghi nhận.
+            Lưu ý: Để đảm bảo quyền lợi quý khách cần cung cấp hình ảnh/clip sản phẩm lỗi khi yêu cầu bảo hành.
+2024/09/03 23:59:49 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:59:49 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:59:49 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:59:49 chat_main_asyncio,line: 34     INFO | InputText: So với điều hòa Daikin thì điều hòa MDV có ưu điểm là gì
+2024/09/03 23:59:49 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:59:49 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:59:49 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:59:49 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:59:49 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:59:51 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:59:55 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:59:55 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 23:59:55 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.003s]
+2024/09/03 23:59:55 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.003s]
+2024/09/03 23:59:55 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *điều hòa daikin 12000btu 2 chiều inverter - dòng tiêu chuẩn - fthf-va - model 2023 - Mã: 019001000014
+  Thông số sản phẩm: loại: điều hòa 2 chiều inverter
+
+công suất: 12.000 btu/h (1.5 hp)
+
+diện tích sử dụng: 20 - 30m²
+
+mức tiêu thụ điện:
+
+làm lạnh: 585 (230 - 1.310) w/h
+sưởi ấm: 700 (190 - 1.600) w/h
+hiệu suất năng lượng:
+
+làm lạnh: 6.11 (a**)
+sưởi ấm: 5.08 (a)
+gas: r32
+
+chế độ inverter: có
+
+công nghệ:
+
+công nghệ inverter tiết kiệm điện
+công nghệ luồng gió coanda
+mắt thần thông minh
+phin lọc apatit titan
+chế độ powerful làm lạnh nhanh
+chế độ vận hành khi ngủ
+chức năng:
+
+làm lạnh nhanh
+sưởi ấm
+lọc bụi mịn pm2.5
+khử mùi
+hẹn giờ
+điều khiển từ xa
+độ ồn:
+
+dàn lạnh: 28/25 db(a)
+dàn nóng: 49 db(a)
+kích thước:
+
+dàn lạnh: 285 x 770 x 223 mm
+dàn nóng: 540 x 670 x 240 mm
+trọng lượng:
+
+dàn lạnh: 13 kg
+dàn nóng: 26 kg
+ - Giá tiền: 14,851,100 đ*
+
+2. *điều hòa daikin 9000btu 2 chiều inverter - dòng tiêu chuẩn - seriesfthf-va -model 2023 - Mã: 019001000013
+  Thông số sản phẩm: loại: điều hòa 2 chiều inverter
+
+công suất: 9.000 btu/h (1 hp)
+
+diện tích sử dụng: 15 - 20m²
+
+mức tiêu thụ điện:
+
+làm lạnh: 555 (230 - 1.250) w/h
+sưởi ấm: 670 (190 - 1.530) w/h
+hiệu suất năng lượng:
+
+làm lạnh: 6.13 (a**)
+sưởi ấm: 5.14 (a)
+gas: r32
+
+chế độ inverter: có
+
+công nghệ:
+
+công nghệ inverter tiết kiệm điện
+công nghệ luồng gió coanda
+mắt thần thông minh
+phin lọc apatit titan
+chế độ powerful làm lạnh nhanh
+chế độ vận hành khi ngủ
+chức năng:
+
+làm lạnh nhanh
+sưởi ấm
+lọc bụi mịn pm2.5
+khử mùi
+hẹn giờ
+điều khiển từ xa
+độ ồn:
+
+dàn lạnh: 28/25 db(a)
+dàn nóng: 49 db(a)
+kích thước:
+
+dàn lạnh: 285 x 770 x 223 mm
+dàn nóng: 540 x 670 x 240 mm
+trọng lượng:
+
+dàn lạnh: 12 kg
+dàn nóng: 24 kg
+ - Giá tiền: 12,070,850 đ*
+
+1. *điều hòa mdv - inverter 9000 btu - Mã: 019013000001
+  Thông số sản phẩm: nguồn điện: 220-240v
+công suất: 9500 btu/h
+công suất tiêu thụ: 745 w
+cường độ dòng điện: 3.4 a
+err: 3.54 w/w
+inverter : có
+kích thước máy trong ( dxrxc): 726x210x291 (mm)
+khối lượng thực máy trong/ khối lượng đóng gói: 8.2/10.3 kg
+kích thước máy ngoài (dxrxc): 835x300x540 (mm)
+khối lương thực máy ngoài / khối lượng đóng gói: 21.7/23.2 kg
+loại gas/ khối lượng nạp: r32/0.38
+ap suất thiết kế: 4.3/1.7 mpa
+chiều dài đường ống tối đa: 25m
+chênh lệch độ cao tối đa: 10m
+phạm vi lành lạnh hiệu quả : 12~18 m2
+hiệu suất năng lượng : 4.48 cspf
+bảo hành 3 năm cho sản phẩm
+bảo hành 5 năm cho máy nén
+suất xứ : thái lan
+ - Giá tiền: 6,014,184 đ*
+
+2. *điều hòa mdv 1 chiều 12000 btu - model 2023 - Mã: 019013000004
+  Thông số sản phẩm: model: mdvg-13crdn8
+công suất: 12.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 15 - 20m²
+gas: r32
+mức tiêu thụ điện: 1.15 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 810 x 285 x 210 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 14 kg
+trọng lượng dàn nóng: 25 kg
+ - Giá tiền: 7,246,030 đ*
+
+2024/09/03 23:59:55 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:59:59 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:59:59 chat,line: 160     INFO | +LLM out+:
+Xin lỗi, em không có thông tin cụ thể về ưu điểm của điều hòa MDV so với điều hòa Daikin. Tuy nhiên, em có thể cung cấp cho Anh/chị thông tin chi tiết về các sản phẩm của cả hai thương hiệu này, nếu Anh/chị cần. 
+
+1. Điều hòa Daikin 12000 BTU 2 chiều inverter - Mã: 019001000014
+   - Công suất: 12.000 BTU/h (1.5 HP)
+   - Diện tích sử dụng: 20 - 30m²
+   - Mức tiêu thụ điện:
+     - Làm lạnh: 585 (230 - 1.310) W/h
+     - Sưởi ấm: 700 (190 - 1.600) W/h
+   - Gas: R32
+   - Bảo hành: 12 tháng
+   - Giá tiền: 14,851,100 đ
+
+2. Điều hòa MDV - inverter 9000 BTU - Mã: 019013000001
+   - Công suất: 9500 BTU/h
+   - Công suất tiêu thụ: 745 W
+   - Diện tích sử dụng: 12 - 18 m²
+   - Gas: R32
+   - Bảo hành: 3 năm cho sản phẩm, 5 năm cho máy nén
+   - Giá tiền: 6,014,184 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho em biết!
+2024/09/03 23:59:59 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:59:59 main_run,line: 199     INFO | ---results---: Xin lỗi, em không có thông tin cụ thể về ưu điểm của điều hòa MDV so với điều hòa Daikin. Tuy nhiên, em có thể cung cấp cho Anh/chị thông tin chi tiết về các sản phẩm của cả hai thương hiệu này, nếu Anh/chị cần. 
+
+1. Điều hòa Daikin 12000 BTU 2 chiều inverter - Mã: 019001000014
+   - Công suất: 12.000 BTU/h 
+   - Diện tích sử dụng: 20 - 30m²
+   - Mức tiêu thụ điện:
+     - Làm lạnh: 585  W/h
+     - Sưởi ấm: 700  W/h
+   - Gas: R32
+   - Bảo hành: 12 tháng
+   - Giá tiền: 14,851,100 đ
+
+2. Điều hòa MDV - inverter 9000 BTU - Mã: 019013000001
+   - Công suất: 9500 BTU/h
+   - Công suất tiêu thụ: 745 W
+   - Diện tích sử dụng: 12 - 18 m²
+   - Gas: R32
+   - Bảo hành: 3 năm cho sản phẩm, 5 năm cho máy nén
+   - Giá tiền: 6,014,184 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho em biết!
+2024/09/04 00:06:18 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:06:18 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:06:18 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:06:18 chat_main_asyncio,line: 34     INFO | InputText: liệt kê các điều hoà phù hợp với diện tích 20m2
+2024/09/04 00:06:18 main_run,line: 131     INFO | ---ChatText---
+2024/09/04 00:06:18 chat,line: 81     INFO | =====rasa=====
+2024/09/04 00:06:18 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/04 00:06:18 chat,line: 102     INFO | ====rasa done!====
+2024/09/04 00:06:18 chat,line: 106     INFO | =====LLM=====
+2024/09/04 00:06:19 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 00:06:21 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 00:06:21 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/04 00:06:21 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.004s]
+2024/09/04 00:06:21 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *điều hòa mdv - inverter 9000 btu - Mã: 019013000001
+  Thông số sản phẩm: nguồn điện: 220-240v
+công suất: 9500 btu/h
+công suất tiêu thụ: 745 w
+cường độ dòng điện: 3.4 a
+err: 3.54 w/w
+inverter : có
+kích thước máy trong ( dxrxc): 726x210x291 (mm)
+khối lượng thực máy trong/ khối lượng đóng gói: 8.2/10.3 kg
+kích thước máy ngoài (dxrxc): 835x300x540 (mm)
+khối lương thực máy ngoài / khối lượng đóng gói: 21.7/23.2 kg
+loại gas/ khối lượng nạp: r32/0.38
+ap suất thiết kế: 4.3/1.7 mpa
+chiều dài đường ống tối đa: 25m
+chênh lệch độ cao tối đa: 10m
+phạm vi lành lạnh hiệu quả : 12~18 m2
+hiệu suất năng lượng : 4.48 cspf
+bảo hành 3 năm cho sản phẩm
+bảo hành 5 năm cho máy nén
+suất xứ : thái lan
+ - Giá tiền: 6,014,184 đ*
+
+2. *điều hòa mdv 1 chiều 12000 btu - model 2023 - Mã: 019013000004
+  Thông số sản phẩm: model: mdvg-13crdn8
+công suất: 12.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 15 - 20m²
+gas: r32
+mức tiêu thụ điện: 1.15 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 810 x 285 x 210 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 14 kg
+trọng lượng dàn nóng: 25 kg
+ - Giá tiền: 7,246,030 đ*
+
+3. *điều hòa mdv 1 chiều inverter 18000 btu - model 2023 - Mã: 019013000003
+  Thông số sản phẩm: model: mdvg-18crdn8
+công suất: 18.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 20 - 30m²
+gas: r32
+mức tiêu thụ điện: 1.65 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 969 x 320 x 241 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 18 kg
+trọng lượng dàn nóng: 28 kg
+ - Giá tiền: 11,740,520 đ*
+
+4. *điều hòa carrier 1 chiều inverter 18.000 btu/h (2 hp) - model 2023 - Mã: 019014000003
+  Thông số sản phẩm: loại: điều hòa 1 chiều inverter
+
+công suất: 18.000 btu/h (2 hp)
+
+diện tích sử dụng: 20 - 30m²
+
+mức tiêu thụ điện:
+
+làm lạnh: 1.50 kw/h
+sưởi ấm: -
+hiệu suất năng lượng: 5.8 (a++)
+
+gas: r32
+
+chế độ inverter: có
+
+chức năng:
+
+làm lạnh nhanh
+tự làm sạch
+lọc bụi mịn pm2.5
+khử mùi
+chế độ gió coanda
+hẹn giờ
+điều khiển từ xa
+độ ồn:
+
+dàn lạnh: 22/19 db(a)
+dàn nóng: 52/48 db(a)
+kích thước:
+
+dàn lạnh: 910 x 320 x 230 mm
+dàn nóng: 770 x 285 x 540 mm
+trọng lượng:
+
+dàn lạnh: 14 kg
+dàn nóng: 28 kg
+ - Giá tiền: 16,508,470 đ*
+
+2024/09/04 00:06:21 chat,line: 62     INFO | ==Conversation==
+2024/09/04 00:06:27 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/04 00:06:27 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số sản phẩm điều hòa phù hợp với diện tích 20m2:
+
+1. Điều hòa MDV 1 chiều inverter 18000 btu - Model 2023
+   - Mã: 019013000003
+   - Công suất: 18.000 btu/h
+   - Diện tích sử dụng: 20 - 30m²
+   - Gas: R32
+   - Mức tiêu thụ điện: 1.65 kw/h
+   - Độ ồn: 22/19 db(a)
+   - Kích thước dàn lạnh: 969 x 320 x 241 mm
+   - Kích thước dàn nóng: 770 x 285 x 540 mm
+   - Trọng lượng dàn lạnh: 18 kg
+   - Trọng lượng dàn nóng: 28 kg
+   - Giá tiền: 11,740,520 đ
+
+2. Điều hòa Carrier 1 chiều inverter 18.000 btu/h (2 hp) - Model 2023
+   - Mã: 019014000003
+   - Công suất: 18.000 btu/h (2 hp)
+   - Diện tích sử dụng: 20 - 30m²
+   - Gas: R32
+   - Mức tiêu thụ điện: 1.50 kw/h
+   - Hiệu suất năng lượng: 5.8 (A++)
+   - Độ ồn: Dàn lạnh: 22/19 db(a), Dàn nóng: 52/48 db(a)
+   - Kích thước dàn lạnh: 910 x 320 x 230 mm
+   - Kích thước dàn nóng: 770 x 285 x 540 mm
+   - Trọng lượng dàn lạnh: 14 kg
+   - Trọng lượng dàn nóng: 28 kg
+   - Giá tiền: 16,508,470 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/04 00:06:27 chat,line: 162     INFO | =====LLM done!=====
+2024/09/04 00:06:27 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số sản phẩm điều hòa phù hợp với diện tích 20m2:
+
+1. Điều hòa MDV 1 chiều inverter 18000 btu - Model 2023
+   - Mã: 019013000003
+   - Công suất: 18.000 btu/h
+   - Diện tích sử dụng: 20 - 30m²
+   - Gas: R32
+   - Mức tiêu thụ điện: 1.65 kw/h
+   - Độ ồn: 22/19 db
+   - Kích thước dàn lạnh: 969 x 320 x 241 mm
+   - Kích thước dàn nóng: 770 x 285 x 540 mm
+   - Trọng lượng dàn lạnh: 18 kg
+   - Trọng lượng dàn nóng: 28 kg
+   - Giá tiền: 11,740,520 đ
+
+2. Điều hòa Carrier 1 chiều inverter 18.000 btu/h  - Model 2023
+   - Mã: 019014000003
+   - Công suất: 18.000 btu/h 
+   - Diện tích sử dụng: 20 - 30m²
+   - Gas: R32
+   - Mức tiêu thụ điện: 1.50 kw/h
+   - Hiệu suất năng lượng: 5.8 
+   - Độ ồn: Dàn lạnh: 22/19 db, Dàn nóng: 52/48 db
+   - Kích thước dàn lạnh: 910 x 320 x 230 mm
+   - Kích thước dàn nóng: 770 x 285 x 540 mm
+   - Trọng lượng dàn lạnh: 14 kg
+   - Trọng lượng dàn nóng: 28 kg
+   - Giá tiền: 16,508,470 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/04 00:18:23 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:18:23 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:18:23 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:18:23 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 00:18:23 main_run,line: 157     INFO | ---Similarity---
+2024/09/04 00:18:30 main_run,line: 199     INFO | ---results---: Tôi đã tìm được những sản phẩm tương tự mà bạn có thể quan tâm:
+2024/09/04 00:20:35 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:20:35 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:20:35 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:20:35 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 00:20:35 main_run,line: 157     INFO | ---Similarity---
+2024/09/04 00:20:43 main_run,line: 199     INFO | ---results---: Tôi đã tìm được những sản phẩm tương tự mà bạn có thể quan tâm:
+2024/09/04 09:07:57 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 09:07:57 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 09:07:57 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 09:07:57 chat_main_asyncio,line: 34     INFO | InputText: tìm kiếm sản phẩm tương tự
+2024/09/04 09:07:57 main_run,line: 131     INFO | ---ChatText---
+2024/09/04 09:07:57 chat,line: 81     INFO | =====rasa=====
+2024/09/04 09:07:57 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập thông tin sản phẩm để tìm sản phẩm tương tự.
+2024/09/04 09:07:57 chat,line: 102     INFO | ====rasa done!====
+2024/09/04 09:07:57 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập thông tin sản phẩm để tìm sản phẩm tương tự.

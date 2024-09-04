@@ -1,0 +1,492 @@
+2024/09/03 22:47:35 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 22:47:35 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 22:47:35 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 22:47:35 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 22:47:35 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 22:47:38 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm MKHNI001009: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/03 22:48:55 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 22:48:55 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 22:48:55 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 22:48:55 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 22:48:55 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 22:48:58 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm ấm siêu tốc AIO smart: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/03 23:23:06 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:23:06 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:23:06 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:23:06 chat_main_asyncio,line: 34     INFO | InputText: máy giặt lồng đứng
+2024/09/03 23:23:06 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:23:06 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:23:06 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:23:06 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:23:06 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:23:07 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:23:08 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:23:08 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 23:23:08 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.003s]
+2024/09/03 23:23:08 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *máy giặt aqua 9 kg aqw-f91gt.s - Mã: M&EGD000250
+  Thông số sản phẩm: • loại máy giặt: cửa trên
+• lồng giặt: lồng đứng
+• khối lượng giặt: 9 kg 
+• số người sử dụng: từ 3 - 5 người
+• kiểu động cơ: truyền động gián tiếp (dây curoa)
+• tốc độ quay vắt tối đa: 700 vòng/phút
+• chất liệu lồng giặt: thép không gỉ
+• chất liệu vỏ máy: kim loại sơn tĩnh điện
+• chất liệu nắp máy: kính chịu lực
+• hiệu suất sử dụng điện: 10.9 wh/kg
+• chương trình giặt: chăn mền, vắt cực khô, giặt mạnh, giặt ngâm, giặt nhanh, giặt nhẹ, giặt thơm, giặt tiêu chuẩn
+• công nghệ giặt: diệt khuẩn khử mùi nano ag+ giặt nhiều luồng nước phun multijet
+• bảng điều khiển: song ngữ anh - việt
+• tiện ích: hẹn giờ giặt, khóa trẻ em, van sử dụng mực nước thấp, vệ sinh lồng giặt
+• kích thước, khối lượng: cao 100.6 cm - ngang 53.3 cm - sâu 58 cm - nặng 36 kg
+• chiều dài ống cấp nước: 128 cm
+• chiều dài ống thoát nước: 77 cm
+ - Giá tiền: 4,890,000 đ*
+
+2. *máy giặt electrolux ultimatecare 500 inverter ewf1024p5sb - Mã: 128004000003
+  Thông số sản phẩm: loại máy giặt: cửa trước 
+lồng giặt: lồng ngang
+khối lượng giặt: 10 kg
+số người sử dụng: từ 5 - 7 người 
+kiểu động cơ: truyền động gián tiếp (dây curoa)
+tốc độ quay vắt tối đa: 1200 vòng/phút
+chất liệu lồng giặt: thép không gỉ
+chất liệu vỏ máy: kim loại sơn tĩnh điện
+chất liệu nắp máy: nhựa + kính cường lực, thép
+sản xuất tại: thái lan
+thời gian bảo hành động cơ: 10 năm
+hiệu suất sử dụng điện: 16.5 wh/kg
+loại inverter: công nghệ ecoinverterchương trình giặt: chế độ yêu thích, giặt 60 phút, đồ trải giường, giặt nhanh 15 phút, giặt nhanh 39 phút, giặt tiết kiệm, vắt, vệ sinh lồng giặt, xả + vắt, đồ cotton, đồ hỗn hợp, đồ len, đồ mỏng, đồ thể thao, đồ trẻ em
+công nghệ giặt: công nghệ giặt hơi nước hygienic carecông nghệ ultramix hoà tan nước giặt hiệu quả
+bảng điều khiển: song ngữ anh - việt có nút xoay, cảm ứng và màn hình hiển thịtiện ích: chỉnh nhiệt độ nước, chỉnh số vòng vắt, khóa trẻ em, lưu chương trình yêu thích, quản lý thời gian, thêm quần áo khi máy đang giặt, trì hoãn kết thúc, xả thêm, chế độ giặt sơ tự động
+kích thước, khối lượng: cao 85 cm - ngang 60 cm - sâu 65.5 cm - nặng 76 kg
+chiều dài ống cấp nước: 134 cmchiều dài ống thoát nước: 209 cm
+ - Giá tiền: 10,516,000 đ*
+
+3. *máy giặt aqua cửa trên - 10kg aqw-u100ft.bk - Mã: 128003000002
+  Thông số sản phẩm: loại máy giặt: lồng đứng
+động cơ : curoa
+khối lượng giặt: 10 kg
+lồng giặtthép không gỉ
+khử mùi diệt khuẩn
+khóa trẻ em
+màn hình hiển thị thời gian
+nắp máynắp kính cường lực tràn viền
+dòng điện : 220v/50hz
+tốc độ vắt: 700 vòng/phút
+kích thước (r*s*c)560 x 630 x 1006
+trọng lượng: 36,5 kg
+sản xuất tại việt nam
+bảo hành: 24 tháng
+ - Giá tiền: 5,158,000 đ*
+
+4. *máy giặt aqua cửa trên - 8kg aqw-ks80gt.s - Mã: 128003000001
+  Thông số sản phẩm: cửa trên - lồng đứng
+khối lượng giặt: 8 kg
+kiểu động cơ: truyền động gián tiếp (dây curoa)
+tốc độ quay vắt tối đa: 775 vòng/ phút
+chất liệu lồng giặt: thép không gỉ
+chất liệu vỏ máy: kim loại sơn tĩnh điện
+chất liệu nắp máy: nhựa abs + kính
+thời gian bảo hành động cơ:2 năm
+hiệu suất sử dụng điện: 11.3 wh/kg
+mâm giặt kháng khuẩn abt
+bảng điều khiển: song ngữ anh - việt có nút nhấn
+khóa trẻ em
+tự khởi động lại khi có điện
+van sử dụng mực nước thấp
+cao 93 cm - ngang 52.7 cm - sâu 56.9 cm - nặng 30.1 kg
+ - Giá tiền: 4,013,000 đ*
+
+2024/09/03 23:23:08 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:23:13 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:23:13 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về máy giặt lồng đứng:
+
+1. Máy giặt Aqua 9 kg AQW-F91GT.S - Mã: M&EGD000250  
+   - Loại máy giặt: Cửa trên
+   - Lồng giặt: Lồng đứng
+   - Khối lượng giặt: 9 kg 
+   - Số người sử dụng: Từ 3 - 5 người
+   - Tốc độ quay vắt tối đa: 700 vòng/phút
+   - Chất liệu lồng giặt: Thép không gỉ
+   - Chất liệu vỏ máy: Kim loại sơn tĩnh điện
+   - Kích thước: Cao 100.6 cm - Ngang 53.3 cm - Sâu 58 cm 
+   - Trọng lượng: 36 kg
+   - Bảo hành: 24 tháng
+   - Giá tiền: 4,890,000 đ
+
+2. Máy giặt Aqua cửa trên - 10kg AQW-U100FT.BK - Mã: 128003000002  
+   - Loại máy giặt: Lồng đứng
+   - Khối lượng giặt: 10 kg
+   - Tốc độ vắt: 700 vòng/phút
+   - Chất liệu lồng giặt: Thép không gỉ
+   - Kích thước: Cao 1006 mm - Rộng 560 mm - Sâu 630 mm
+   - Trọng lượng: 36.5 kg
+   - Bảo hành: 24 tháng
+   - Giá tiền: 5,158,000 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/03 23:23:13 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:23:13 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về máy giặt lồng đứng:
+
+1. Máy giặt Aqua 9 kg AQW-F91GT.S - Mã: M&EGD000250  
+   - Loại máy giặt: Cửa trên
+   - Lồng giặt: Lồng đứng
+   - Khối lượng giặt: 9 kg 
+   - Số người sử dụng: Từ 3 - 5 người
+   - Tốc độ quay vắt tối đa: 700 vòng/phút
+   - Chất liệu lồng giặt: Thép không gỉ
+   - Chất liệu vỏ máy: Kim loại sơn tĩnh điện
+   - Kích thước: Cao 100.6 cm - Ngang 53.3 cm - Sâu 58 cm 
+   - Trọng lượng: 36 kg
+   - Bảo hành: 24 tháng
+   - Giá tiền: 4,890,000 đ
+
+2. Máy giặt Aqua cửa trên - 10kg AQW-U100FT.BK - Mã: 128003000002  
+   - Loại máy giặt: Lồng đứng
+   - Khối lượng giặt: 10 kg
+   - Tốc độ vắt: 700 vòng/phút
+   - Chất liệu lồng giặt: Thép không gỉ
+   - Kích thước: Cao 1006 mm - Rộng 560 mm - Sâu 630 mm
+   - Trọng lượng: 36.5 kg
+   - Bảo hành: 24 tháng
+   - Giá tiền: 5,158,000 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/03 23:23:45 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:23:45 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:23:45 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:23:45 chat_main_asyncio,line: 34     INFO | InputText: inventory_status_true
+2024/09/03 23:23:45 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/03 23:24:41 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:24:41 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:24:41 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:24:41 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 23:24:41 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 23:24:43 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm M&EGD000250: 
+Hiện hàng tại NAN đã hết. Các khu vực sau còn hàng Anh/chị hãy liên hệ các CNCT sau: 
+
++ + + CNCT: THA + + +
+1. Kho CNCT THA - Kinh doanh GPTH
+Mã kho: MKTHA001009
+SL: 4
+      -------------------     
+2. Kho  THA Trung tâm Ngọc Lặc - Kinh doanh GPTH
+Mã kho: MKAIO_THA_TTH_10
+SL: 2
+      -------------------     
+3. Kho  THA Trung tâm Lang Chánh - Quan Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_THA_TTH_11_13
+SL: 1
+      -------------------     
+
+
++ + + CNCT: NBH + + +
+1. Kho  NBH Trung tâm Ninh Bình - Hoa Lư - Kinh doanh GPTH
+Mã kho: MKAIO_NBH_TTH_1_2
+SL: 1
+      -------------------     
+
+
++ + + CNCT: HPG + + +
+1. Kho CNCT HPG - Kinh doanh GPTH
+Mã kho: MKHPG001009
+SL: 5
+      -------------------     
+
+
++ + + CNCT: HNM + + +
+1. Kho CNCT HNM - Kinh doanh GPTH
+Mã kho: MKHNM001009
+SL: 2
+      -------------------     
+
+
++ + + CNCT: TBH + + +
+1. Kho  TBH Trung tâm Kiến Xương - Tiền Hải - Kinh doanh GPTH
+Mã kho: MKAIO_TBH_TTH_3_4
+SL: 1
+      -------------------     
+2. Kho  TBH Trung tâm Hưng Hà - Quỳnh Phụ - Kinh doanh GPTH
+Mã kho: MKAIO_TBH_TTH_7_8
+SL: 1
+      -------------------     
+
+
++ + + CNCT: HYN + + +
+1. Kho  HYN Trung tâm Thành phố - Tiên Lữ - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_1_9
+SL: 1
+      -------------------     
+2. Kho  HYN Trung tâm Văn Lâm - Văn Giang - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_3_4
+SL: 1
+      -------------------     
+3. Kho  HYN Trung tâm Yên Mỹ - Mỹ Hào - Kinh doanh GPTH
+Mã kho: MKAIO_HYN_TTH_2_5
+SL: 1
+      -------------------     
+
+
++ + + CNCT: HBH + + +
+1. Kho CNCT HBH - Kinh doanh GPTH
+Mã kho: MKHBH001009
+SL: 1
+      -------------------     
+2. Kho  HBH Trung tâm Kim Bôi - Lạc Thủy - Kinh doanh GPTH
+Mã kho: MKAIO_HBH_TTH_6_10
+SL: 1
+      -------------------     
+3. Kho  HBH Trung tâm Lương Sơn - Kỳ Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_HBH_TTH_3_4
+SL: 1
+      -------------------     
+
+
++ + + CNCT: HNI + + +
+1. Kho  HNI Trung tâm Cầu Giấy - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_9
+SL: 1
+      -------------------     
+2. Kho  HNI Trung tâm Sóc Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_3
+SL: 1
+      -------------------     
+3. Kho  HNI Trung tâm Nam Từ Liêm - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_30
+SL: 1
+      -------------------     
+4. Kho  HNI Trung tâm Thạch Thất - Quốc Oai - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_24_27
+SL: 1
+      -------------------     
+5. Kho  HNI Trung tâm Sơn Tây - Ba Vì - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_23_26
+SL: 1
+      -------------------     
+6. Kho  HNI Trung tâm Hoàn Kiếm - Ba Đình - Kinh doanh GPTH
+Mã kho: MKAIO_HNI_TTH_13_14
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BNH + + +
+1. Kho CNCT BNH - Kinh doanh GPTH
+Mã kho: MKBNH001009
+SL: 3
+      -------------------     
+
+
++ + + CNCT: BGG + + +
+1. Kho CNCT BGG - Kinh doanh GPTH
+Mã kho: MKBGG001009
+SL: 6
+      -------------------     
+
+
++ + + CNCT: VPC + + +
+1. Kho CNCT VPC - Kinh doanh GPTH
+Mã kho: MKVPC001009
+SL: 5
+      -------------------     
+
+
++ + + CNCT: TNN + + +
+1. Kho CNCT TNN - Kinh doanh GPTH
+Mã kho: MKTNN001009
+SL: 5
+      -------------------     
+
+
++ + + CNCT: PTO + + +
+1. Kho CNCT PTO - Kinh doanh GPTH
+Mã kho: MKPTO001009
+SL: 1
+      -------------------     
+2. Kho  PTO Trung tâm Hạ Hòa - Kinh doanh GPTH
+Mã kho: MKAIO_PTO_TTH_4
+SL: 1
+      -------------------     
+3. Kho  PTO Trung tâm Thanh Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_PTO_TTH_11
+SL: 1
+      -------------------     
+4. Kho  PTO Trung tâm Tân Sơn - Kinh doanh GPTH
+Mã kho: MKAIO_PTO_TTH_13
+SL: 1
+      -------------------     
+5. Kho  PTO Trung tâm Đoan Hùng - Kinh doanh GPTH
+Mã kho: MKAIO_PTO_TTH_3
+SL: 1
+      -------------------     
+6. Kho  PTO Trung tâm Tam Nông - Thanh Thủy - Kinh doanh GPTH
+Mã kho: MKAIO_PTO_TTH_8_12
+SL: 1
+      -------------------     
+
+
++ + + CNCT: TTH + + +
+1. Kho CNCT TTH - Kinh doanh GPTH
+Mã kho: MKTTH001009
+SL: 3
+      -------------------     
+
+
++ + + CNCT: QNH + + +
+1. Kho CNCT QNH - Kinh doanh GPTH
+Mã kho: MKQNH001009
+SL: 1
+      -------------------     
+2. Kho  QNH Trung tâm Cẩm Phả - Vân Đồn - Kinh doanh GPTH
+Mã kho: MKAIO_QNH_TTH_6_7
+SL: 2
+      -------------------     
+
+
++ + + CNCT: TQG + + +
+1. Kho CNCT TQG - Kinh doanh GPTH
+Mã kho: MKTQG001009
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BKN + + +
+1. Kho CNCT BKN - Kinh doanh GPTH
+Mã kho: MKBKN001009
+SL: 1
+      -------------------     
+
+
++ + + CNCT: SLA + + +
+1. Kho CNCT SLA - Kinh doanh GPTH
+Mã kho: MKSLA001009
+SL: 1
+      -------------------     
+2. Kho  SLA Trung tâm Mai Sơn - Yên Châu - Kinh doanh GPTH
+Mã kho: MKAIO_SLA_TTH_4_8
+SL: 1
+      -------------------     
+3. Kho  SLA Trung tâm Thành phố - Mường La - Kinh doanh GPTH
+Mã kho: MKAIO_SLA_TTH_1_5
+SL: 1
+      -------------------     
+
+
++ + + CNCT: DNG + + +
+1. Kho  DNG Trung tâm Thanh Khê - Liên Chiểu - Kinh doanh GPTH
+Mã kho: MKAIO_DNG_TTH_2_4
+SL: 1
+      -------------------     
+
+
++ + + CNCT: QNM + + +
+1. Kho CNCT QNM - Kinh doanh GPTH
+Mã kho: MKQNM001009
+SL: 1
+      -------------------     
+2. Kho  QNM Trung tâm Tiên Phước - Bắc Trà My - Nam Trà My - Kinh doanh GPTH
+Mã kho: MKAIO_QNM_TTH_4_5_6
+SL: 1
+      -------------------     
+3. Kho  QNM Trung tâm Thăng Bình - Duy Xuyên - Kinh doanh GPTH
+Mã kho: MKAIO_QNM_TTH_7_8
+SL: 1
+      -------------------     
+4. Kho  QNM Trung tâm Đại Lộc - Nam Giang - Kinh doanh GPTH
+Mã kho: MKAIO_QNM_TTH_15_16
+SL: 1
+      -------------------     
+
+
++ + + CNCT: CBG + + +
+1. Kho CNCT CBG - Kinh doanh GPTH
+Mã kho: MKCBG001009
+SL: 1
+      -------------------     
+2. Kho  CBG Trung tâm Trà Lĩnh - Quảng Uyên - Phục Hòa   - Kinh doanh GPTH
+Mã kho: MKAIO_CBG_TTH_2_5_6
+SL: 1
+      -------------------     
+
+
++ + + CNCT: LCI + + +
+1. Kho  LCI Trung tâm Lào Cai - Kinh doanh GPTH
+Mã kho: MKAIO_LCI_TTH_1
+SL: 1
+      -------------------     
+2. Kho  LCI Trung tâm Văn Bàn - Kinh doanh GPTH
+Mã kho: MKAIO_LCI_TTH_9
+SL: 1
+      -------------------     
+
+
++ + + CNCT: HGG + + +
+1. Kho CNCT HGG - Kinh doanh GPTH
+Mã kho: MKHGG001009
+SL: 1
+      -------------------     
+
+
++ + + CNCT: BDH + + +
+1. Kho  BDH Trung tâm Tây Sơn - Vĩnh Thạnh - Kinh doanh GPTH
+Mã kho: MKAIO_BDH_TTH_4_10
+SL: 1
+      -------------------     
+
+
++ + + CNCT: KTM + + +
+1. Kho CNCT KTM - Kinh doanh GPTH
+Mã kho: MKKTM001009
+SL: 2
+      -------------------     
+
+
+2024/09/03 23:31:55 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:31:55 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:31:55 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:31:55 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tra cứu hàng tồn kho?
+2024/09/03 23:31:55 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:31:55 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:31:55 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/03 23:31:55 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:31:55 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/03 23:34:11 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:34:11 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:34:11 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:34:11 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 23:34:11 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!
+2024/09/03 23:54:07 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:54:07 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:54:07 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:54:07 chat_main_asyncio,line: 34     INFO | InputText: bán bình đun nước thì được hòa hồng bảo nhiêu
+2024/09/03 23:54:07 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:54:07 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:54:07 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:54:07 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:54:07 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:54:10 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:54:11 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:54:11 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 23:54:11 main_run,line: 199     INFO | ---results---: Rất tiếc vì sự cố không mong muốn này. Chúng tôi đang nỗ lực khắc phục và sẽ sớm trở lại. Cảm ơn sự thông cảm của bạn!
+2024/09/04 00:15:02 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:15:02 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:15:02 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:15:02 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 00:15:02 main_run,line: 157     INFO | ---Similarity---
+2024/09/04 00:15:09 main_run,line: 199     INFO | ---results---: Tôi đã tìm được những sản phẩm tương tự mà bạn có thể quan tâm:
+2024/09/04 09:07:33 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 09:07:33 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 09:07:33 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 09:07:33 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 09:07:33 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!

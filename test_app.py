@@ -60,4 +60,4 @@ def setup_logging(path_logchatbot):
     print(f"Logging setup complete.")
 
 # uvicorn.run(app, host="0.0.0.0", port=config_app['server']['port'])
-uvicorn.run(app, host="0.0.0.0", port=1112)
+uvicorn.run(app, host="0.0.0.0", port=1114)

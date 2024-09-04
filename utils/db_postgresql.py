@@ -73,15 +73,13 @@ class DatabaseHandler:
         except Exception as e:
             print("logs_chat_saleman: ",e)
             
-    def llm_key_table(self):
-        
-        check_session_query = "SELECT llm_key FROM chat_saleman.llm_key_table where status = true"
-        with self.conn.cursor() as cur:
-            cur.execute(check_session_query)
-            self.conn.commit()
-            llm_key = cur.fetchall()
-            # print(llm_key[0][0])
-            return llm_key
+    def craw_data(self):
+        import pandas as pd
+        query = "SELECT * FROM chat_saleman.logs_chat_saleman"
+
+        df = pd.read_sql_query(query, self.conn)
+        self.conn.commit()
+        return df
     
 # Usage example
 # db_handler = DatabaseHandler()

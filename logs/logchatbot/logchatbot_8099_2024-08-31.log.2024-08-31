@@ -1,0 +1,23 @@
+2024/09/01 16:02:38 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 16:02:38 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 16:02:38 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 16:02:38 chat_main_asyncio,line: 34     INFO | InputText: tra tồn kho
+2024/09/01 16:02:38 main_run,line: 131     INFO | ---ChatText---
+2024/09/01 16:02:38 chat,line: 81     INFO | =====rasa=====
+2024/09/01 16:02:38 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/01 16:02:38 chat,line: 102     INFO | ====rasa done!====
+2024/09/01 16:02:38 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/01 16:04:33 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 16:04:33 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 16:04:33 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 16:04:33 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 16:04:33 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 16:04:35 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm năng lượng mặt trời 100w: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/02 07:45:31 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/02 07:45:31 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/02 07:45:31 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/02 07:45:31 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/02 07:45:31 main_run,line: 199     INFO | ---results---: Xin chào anh/chị! Tôi rất hân hạnh được hỗ trợ anh chị trong việc tìm kiếm sản phẩm và chính sách.

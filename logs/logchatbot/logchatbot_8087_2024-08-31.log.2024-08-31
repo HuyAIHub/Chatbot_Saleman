@@ -1,0 +1,20 @@
+2024/09/01 15:53:52 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 15:53:52 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 15:53:52 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 15:53:52 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 15:53:52 main_run,line: 199     INFO | ---results---: Xin chào! Mình là trợ lý AI của bạn tại AIO. Mình đang phát triển nên không phải lúc nào cũng đúng. Bạn có thể phản hồi để giúp mình cải thiện tốt hơn. Mình sẵn sàng giúp bạn với câu hỏi về chính sách và tìm kiếm sản phẩm. Hôm nay bạn cần mình hỗ trợ gì không?
+2024/09/01 16:02:24 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 16:02:24 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 16:02:24 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 16:02:24 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 16:02:24 main_run,line: 199     INFO | ---results---: Xin chào anh/chị! Tôi rất hân hạnh được hỗ trợ anh chị trong việc tìm kiếm sản phẩm và chính sách.
+2024/09/01 18:15:41 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 18:15:41 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 18:15:41 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 18:15:41 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tra cứu hàng tồn kho?
+2024/09/01 18:15:41 main_run,line: 131     INFO | ---ChatText---
+2024/09/01 18:15:41 chat,line: 81     INFO | =====rasa=====
+2024/09/01 18:15:41 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/01 18:15:41 chat,line: 102     INFO | ====rasa done!====
+2024/09/01 18:15:41 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:

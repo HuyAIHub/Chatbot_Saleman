@@ -1,0 +1,5 @@
+2024/09/02 16:01:58 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/02 16:01:58 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/02 16:01:58 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/02 16:01:58 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/02 16:01:58 main_run,line: 199     INFO | ---results---: Xin chào! Là AI trợ lý tại AIO đây. Tôi vẫn đang trong giai đoạn phát triển và có thể không hoàn hảo. Hãy giúp tôi cải thiện bằng cách phản hồi về trải nghiệm của bạn. Tôi có thể hỗ trợ bạn gì về chính sách hoặc thông tin sản phẩm hôm nay?

@@ -1,0 +1,237 @@
+2024/09/03 09:00:32 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 09:00:32 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 09:00:32 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 09:00:32 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 09:00:32 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!
+2024/09/03 13:27:13 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 13:27:13 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 13:27:13 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 13:27:13 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 13:27:13 main_run,line: 199     INFO | ---results---: Xin chào! Là AI trợ lý tại AIO đây. Tôi vẫn đang trong giai đoạn phát triển và có thể không hoàn hảo. Hãy giúp tôi cải thiện bằng cách phản hồi về trải nghiệm của bạn. Tôi có thể hỗ trợ bạn gì về chính sách hoặc thông tin sản phẩm hôm nay?
+2024/09/03 18:15:24 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 18:15:24 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 18:15:24 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 18:15:24 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 18:15:24 main_run,line: 199     INFO | ---results---: Chào bạn! Tôi là AI hỗ trợ của AIO. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mọi góp ý của bạn đều giúp tôi ngày càng hoàn thiện. Tôi có thể giúp gì cho bạn về các vấn đề chính sách hoặc tìm kiếm thông tin sản phẩm hôm nay?
+2024/09/03 18:15:49 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 18:15:49 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 18:15:49 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 18:15:49 chat_main_asyncio,line: 34     INFO | InputText: Tôi muốn tìm sản phẩm Đèn năng mặt trời cao cấp?
+2024/09/03 18:15:49 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 18:15:49 chat,line: 81     INFO | =====rasa=====
+2024/09/03 18:15:49 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 18:15:49 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 18:15:49 chat,line: 106     INFO | =====LLM=====
+2024/09/03 18:15:50 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 18:15:51 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 18:15:51 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 18:15:52 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.020s]
+2024/09/03 18:15:52 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *đèn trụ cổng năng lượng mặt trời. - Mã: SMDEN000033
+  Thông số sản phẩm: • công suất định mức: 5w
+• nhiệt độ làm việc: -20c ~ 65c
+• nhiệt độ màu: 6500k
+• tuổi thọ bóng đèn led: 50.000 giờ
+• chế độ điều khiển: tích hợp bộ cảm biến ánh sáng, tự động bật đèn khi trời tối, tắt đèn khi trời sáng.
+• lớp chống thấm nước: ip-65• thời gian chiếu sáng: 10-12h liên tục
+• pin: 8.000mah li-pin
+• kích thước đèn vuông: 19.5 x 19.5 x 17 cm(dxrxc), chân đế: 11x11 cm
+• kích thước đèn tròn: 20.5 x 20.5 x 16.5 cm(dxrxc), chân đế: 11x11 cm• cân nặng: 0.95kg
+ - Giá tiền: 869,000 đ*
+
+2. *bộ đèn led năng lượng mặt trời sv05 - Mã: SMDEN000027
+  Thông số sản phẩm: công suất định mức: 90w
+bảng điều khiển năng lượng mặt trời: polycrystal 6v/15w
+nhiệt độ làm việc: -20c ~ 65c
+nhiệt độ mầu: 6500k
+tuổi thọ bóng đèn led: 50.000 giờ
+chế độ điều khiển: tích hợp bộ cảm biến ánh sang, tự động bật đèn khi trời tối, tắt đèn khi trời sáng
+lớp chống thấm nước: ip-65
+thời gian chiếu sáng: 28-30h liên tục
+pin: 30.000mah lifepo4
+mầu sắc: đen
+kích thước: 42 x 42 x 12.5 cm (dxrxc)
+cân nặng: 3kg
+ - Giá tiền: 1,401,000 đ*
+
+3. *đèn đường năng lượng mặt trời suntek s6 - Mã: SMDMT000001
+  Thông số sản phẩm: công suất định mức: 135w
+bảng điều khiển năng lượng mặt trời: polycrystal 6v/45w
+nhiệt độ làm việc: -20c ~ 65c
+chế độ điều khiển: tích hợp bộ cảm biến ánh sang, tự động bật đèn khi trời tối, tắt đèn khi trời sang + có điều khiển từ xa.
+lớp chống thấm nước: ip-65
+chống sét tvs
+thời gian chiếu sáng: 30-32h liên tục
+pin: 3.2v/60.000mah lifepo4
+kích thước đèn:  24 x 8 x 57cm(dxrxc)
+kích thước tấm năng lượng mặt trời: 67 x 2.5 x 44.5cm (dxrxc)
+trọng lượng: 8kg
+ - Giá tiền: 2,339,000 đ*
+
+4. *bộ đèn led năng lượng mặt trời sv06 - Mã: SMDEN000028
+  Thông số sản phẩm: công suất định mức: 150w
+bảng điều khiển năng lượng mặt trời: polycrystal 6v/25w
+nhiệt độ làm việc: -20c ~ 65c
+nhiệt độ mầu: 6500k
+tuổi thọ bóng đèn led: 50.000 giờ
+chế độ điều khiển: tích hợp bộ cảm biến ánh sang, tự động bật đèn khi trời tối, tắt đèn khi trời sáng
+lớp chống thấm nước: ip-65
+thời gian chiếu sáng: 28-30h liên tục
+pin: 48.000mah lifepo4
+mầu sắc: đen
+kích thước: 55 x 55 x 12.5 cm (dxrxc)
+cân nặng: 4.8kg
+ - Giá tiền: 1,660,000 đ*
+
+2024/09/03 18:15:52 chat,line: 62     INFO | ==Conversation==
+2024/09/03 18:15:57 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 18:15:57 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về đèn năng lượng mặt trời:
+
+1. Bộ đèn led năng lượng mặt trời sv06 - Mã: SMDEN000028
+   - Công suất định mức: 150w
+   - Bảng điều khiển năng lượng mặt trời: polycrystal 6v/25w
+   - Nhiệt độ làm việc: -20c ~ 65c
+   - Nhiệt độ màu: 6500k
+   - Tuổi thọ bóng đèn led: 50.000 giờ
+   - Chế độ điều khiển: tích hợp bộ cảm biến ánh sáng, tự động bật đèn khi trời tối, tắt đèn khi trời sáng
+   - Lớp chống thấm nước: ip-65
+   - Thời gian chiếu sáng: 28-30h liên tục
+   - Pin: 48.000mah lifepo4
+   - Kích thước: 55 x 55 x 12.5 cm (dxrxc)
+   - Cân nặng: 4.8kg
+   - Giá tiền: 1,660,000 đ
+
+2. Đèn đường năng lượng mặt trời suntek s6 - Mã: SMDMT000001
+   - Công suất định mức: 135w
+   - Bảng điều khiển năng lượng mặt trời: polycrystal 6v/45w
+   - Nhiệt độ làm việc: -20c ~ 65c
+   - Chế độ điều khiển: tích hợp bộ cảm biến ánh sáng, tự động bật đèn khi trời tối, tắt đèn khi trời sáng + có điều khiển từ xa.
+   - Lớp chống thấm nước: ip-65
+   - Thời gian chiếu sáng: 30-32h liên tục
+   - Pin: 3.2v/60.000mah lifepo4
+   - Kích thước đèn: 24 x 8 x 57cm(dxrxc)
+   - Kích thước tấm năng lượng mặt trời: 67 x 2.5 x 44.5cm (dxrxc)
+   - Trọng lượng: 8kg
+   - Giá tiền: 2,339,000 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/03 18:15:57 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 18:15:57 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về đèn năng lượng mặt trời:
+
+1. Bộ đèn led năng lượng mặt trời sv06 - Mã: SMDEN000028
+   - Công suất định mức: 150w
+   - Bảng điều khiển năng lượng mặt trời: polycrystal 6v/25w
+   - Nhiệt độ làm việc: -20c ~ 65c
+   - Nhiệt độ màu: 6500k
+   - Tuổi thọ bóng đèn led: 50.000 giờ
+   - Chế độ điều khiển: tích hợp bộ cảm biến ánh sáng, tự động bật đèn khi trời tối, tắt đèn khi trời sáng
+   - Lớp chống thấm nước: ip-65
+   - Thời gian chiếu sáng: 28-30h liên tục
+   - Pin: 48.000mah lifepo4
+   - Kích thước: 55 x 55 x 12.5 cm 
+   - Cân nặng: 4.8kg
+   - Giá tiền: 1,660,000 đ
+
+2. Đèn đường năng lượng mặt trời suntek s6 - Mã: SMDMT000001
+   - Công suất định mức: 135w
+   - Bảng điều khiển năng lượng mặt trời: polycrystal 6v/45w
+   - Nhiệt độ làm việc: -20c ~ 65c
+   - Chế độ điều khiển: tích hợp bộ cảm biến ánh sáng, tự động bật đèn khi trời tối, tắt đèn khi trời sáng + có điều khiển từ xa.
+   - Lớp chống thấm nước: ip-65
+   - Thời gian chiếu sáng: 30-32h liên tục
+   - Pin: 3.2v/60.000mah lifepo4
+   - Kích thước đèn: 24 x 8 x 57cm
+   - Kích thước tấm năng lượng mặt trời: 67 x 2.5 x 44.5cm 
+   - Trọng lượng: 8kg
+   - Giá tiền: 2,339,000 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/09/03 22:51:34 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 22:51:34 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 22:51:34 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 22:51:34 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 22:51:34 main_run,line: 199     INFO | ---results---: Xin chào! Mình là trợ lý AI của bạn tại AIO. Mình đang phát triển nên không phải lúc nào cũng đúng. Bạn có thể phản hồi để giúp mình cải thiện tốt hơn. Mình sẵn sàng giúp bạn với câu hỏi về chính sách và tìm kiếm sản phẩm. Hôm nay bạn cần mình hỗ trợ gì không?
+2024/09/03 23:25:53 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:25:53 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:25:53 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:25:53 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 23:25:53 main_run,line: 177     INFO | ---Inventory---
+2024/09/03 23:25:53 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm M&EGD000250: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/03 23:39:31 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:39:31 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:39:31 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:39:31 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 23:39:31 main_run,line: 199     INFO | ---results---: Xin chào anh/chị! Tôi rất hân hạnh được hỗ trợ anh chị trong việc tìm kiếm sản phẩm và chính sách.
+2024/09/03 23:42:44 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:42:44 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:42:44 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:42:44 chat_main_asyncio,line: 34     INFO | InputText: ấm siêu tốc AIO có giá bao nhiêu
+2024/09/03 23:42:44 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 23:42:44 chat,line: 81     INFO | =====rasa=====
+2024/09/03 23:42:44 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 23:42:44 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 23:42:44 chat,line: 106     INFO | =====LLM=====
+2024/09/03 23:42:45 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:42:46 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:42:46 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/09/03 23:42:46 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.003s]
+2024/09/03 23:42:46 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *ấm đun nước aio smart aiokto2l23w/1c5 (màu đen) - Mã: M&EGD000241
+  Thông số sản phẩm: màu sắc : đen, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóngđế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôitự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mm khối lượng sản phẩm: 1.0 kg thời gian bảo hành: 12 tháng kích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+2. *ấm đun nước aio smart aiokto2l23w/1c5 (màu trắng) - Mã: M&EGD000242
+  Thông số sản phẩm: màu sắc : trắng, công suất (danh định): 1500w nguồn định mức: 220vac - 50/60hz dung tích: 1.5l chất liệu ruột bình: inox cao cấp sus304 chất liệu vỏ bình: nhựa pp cách nhiệt bóng đế tiếp điện: xoay 360°nút gạt để bắt đầu đun và báo hiệu nước đã sôi đèn báo hoạt động lưới lọc cặn đá vôi tự động tắt khi nước sôi tự động tắt khi ấm nước được nhấc khỏi đế chiều dài dây: ≥30cmkích thước sản phẩm (dxrxc): 221x155x241 mmkhối lượng sản phẩm: 1.0 kgthời gian bảo hành: 12 thángkích hoạt bảo hành điện tử: có
+ - Giá tiền: 389,000 đ*
+
+3. *ấm đun nước bluestone ktb-3417 1,7 lít 2200w - Mã: M&EAD100002
+  Thông số sản phẩm: • công suất: 1850 - 2200w
+• dung tích: 1.7 lít
+• chất liệu ruột bình: nhựa pp (không chứa bpa)
+• chất liệu vỏ bình: nhựa pp
+• đế tiếp điện: strix
+• thương hiệu của: singapore
+• chế độ an toàn: tự ngắt khi nước sôi và khi cạn nước
+• tiện ích: lọc bã trà; cột hiển thị mực nước; đèn hoạt động; đế xoay 360 độ
+ - Giá tiền: 316,000 đ*
+
+2024/09/03 23:42:46 chat,line: 62     INFO | ==Conversation==
+2024/09/03 23:42:47 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 23:42:47 chat,line: 160     INFO | +LLM out+:
+Xin lỗi, em không có thông tin về giá của ấm siêu tốc AIO. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/03 23:42:47 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 23:42:47 main_run,line: 199     INFO | ---results---: Xin lỗi, em không có thông tin về giá của ấm siêu tốc AIO. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/03 23:55:02 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 23:55:02 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 23:55:02 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 23:55:02 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 23:55:02 main_run,line: 199     INFO | ---results---: Xin chào! Mình là trợ lý AI của bạn tại AIO. Mình đang phát triển nên không phải lúc nào cũng đúng. Bạn có thể phản hồi để giúp mình cải thiện tốt hơn. Mình sẵn sàng giúp bạn với câu hỏi về chính sách và tìm kiếm sản phẩm. Hôm nay bạn cần mình hỗ trợ gì không?
+2024/09/04 00:18:05 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:18:05 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:18:05 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:18:05 chat_main_asyncio,line: 34     INFO | InputText: similarity_status_true
+2024/09/04 00:18:05 main_run,line: 199     INFO | ---results---: Bạn hãy nhập thông tin về giá hoặc thông số kỹ thuật của sản phẩm bạn đang quan tâm:
+2024/09/04 00:25:25 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:25:25 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:25:26 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:25:26 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/04 00:25:26 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!
+2024/09/04 00:25:33 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/04 00:25:33 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/04 00:25:33 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/04 00:25:33 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tìm kiếm sản phẩm tương tự?
+2024/09/04 00:25:33 main_run,line: 131     INFO | ---ChatText---
+2024/09/04 00:25:33 chat,line: 81     INFO | =====rasa=====
+2024/09/04 00:25:33 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập thông tin sản phẩm để tìm sản phẩm tương tự.
+2024/09/04 00:25:33 chat,line: 102     INFO | ====rasa done!====
+2024/09/04 00:25:33 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập thông tin sản phẩm để tìm sản phẩm tương tự.

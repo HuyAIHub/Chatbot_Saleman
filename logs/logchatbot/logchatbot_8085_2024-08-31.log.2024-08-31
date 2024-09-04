@@ -1,0 +1,37 @@
+2024/09/01 16:04:10 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 16:04:10 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 16:04:10 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 16:04:10 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 16:04:10 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 16:04:10 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm năng lượng mặt trời aio: 
+Tên Kho: Kho  NDH Trung tâm Hải Hậu - Trực Ninh - Kinh doanh GPTH
+Mã kho: MKAIO_NDH_TTH_7_8
+SL: 1
+       -------------------      
+
+2024/09/01 18:15:36 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 18:15:36 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 18:15:36 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 18:15:36 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 18:15:36 main_run,line: 199     INFO | ---results---: Xin chào! Mình là trợ lý AI của bạn tại AIO. Mình đang phát triển nên không phải lúc nào cũng đúng. Bạn có thể phản hồi để giúp mình cải thiện tốt hơn. Mình sẵn sàng giúp bạn với câu hỏi về chính sách và tìm kiếm sản phẩm. Hôm nay bạn cần mình hỗ trợ gì không?
+2024/09/01 18:15:49 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 18:15:49 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 18:15:49 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 18:15:49 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 18:15:49 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 18:15:50 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm hc23: 
+Tên Kho: Kho  CMU Trung tâm Trần Văn Thời - Kinh doanh GPTH
+Mã kho: MKAIO_CMU_TTH_4
+SL: 7
+       -------------------      
+
+2024/09/02 08:34:27 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/02 08:34:27 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/02 08:34:27 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/02 08:34:27 chat_main_asyncio,line: 34     INFO | InputText: kiểm tra tồn kho ấm bluestone 
+2024/09/02 08:34:27 main_run,line: 131     INFO | ---ChatText---
+2024/09/02 08:34:27 chat,line: 81     INFO | =====rasa=====
+2024/09/02 08:34:27 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/02 08:34:27 chat,line: 102     INFO | ====rasa done!====
+2024/09/02 08:34:27 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:

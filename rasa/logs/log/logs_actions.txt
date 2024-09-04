@@ -10,10 +10,179 @@ Implementing implicit namespace packages (as specified in PEP 420) is preferred 
   declare_namespace(pkg)
 /home/aiai01/.local/lib/python3.10/site-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
   SANIC_VERSION = LooseVersion(sanic_version)
-2024-08-03 08:36:16 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
-2024-08-03 08:36:16 INFO     rasa_sdk.executor  - Registered function for 'action_extract_name'.
-2024-08-03 08:36:16 INFO     rasa_sdk.executor  - Registered function for 'action_extract_produce'.
-2024-08-03 08:36:16 INFO     rasa_sdk.executor  - Registered function for 'action_extract_produce_inventory'.
-2024-08-03 08:36:16 INFO     rasa_sdk.executor  - Registered function for 'action_search_product_similar'.
-2024-08-03 08:36:16 INFO     rasa_sdk.endpoint  - Starting plugins...
-2024-08-03 08:36:16 INFO     rasa_sdk.endpoint  - Action endpoint is up and running on http://0.0.0.0:5055
+2024-08-12 15:38:50 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+2024-08-12 15:38:50 INFO     rasa_sdk.executor  - Registered function for 'action_extract_name'.
+2024-08-12 15:38:50 INFO     rasa_sdk.executor  - Registered function for 'action_extract_produce'.
+2024-08-12 15:38:50 INFO     rasa_sdk.executor  - Registered function for 'action_extract_produce_inventory'.
+2024-08-12 15:38:50 INFO     rasa_sdk.executor  - Registered function for 'action_search_product_similar'.
+2024-08-12 15:38:50 INFO     rasa_sdk.endpoint  - Starting plugins...
+2024-08-12 15:38:50 INFO     rasa_sdk.endpoint  - Action endpoint is up and running on http://0.0.0.0:5055
+2024-08-12 16:04:25 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 08:58:28 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 09:00:03 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 09:00:57 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 09:02:05 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 09:03:19 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 09:06:56 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 09:16:44 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 14:47:11 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 15:24:16 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 16:10:04 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-13 18:39:01 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-08-19 18:24:16 ERROR    rasa_sdk.endpoint  - Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 113, in webhook
+    result = await executor.run(action_call)
+  File "/home/aiai01/.local/lib/python3.10/site-packages/rasa_sdk/executor.py", line 399, in run
+    action(dispatcher, tracker, domain)
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in run
+    if any(p == produce_name_inventory.lower() for p in products):
+  File "/home/aiai01/Production/Rasa_LLM_Elasticsearch_update_v3/rasa/actions/actions.py", line 83, in <genexpr>
+    if any(p == produce_name_inventory.lower() for p in products):
+AttributeError: 'NoneType' object has no attribute 'lower'

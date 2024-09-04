@@ -1,7 +1,7 @@
 import time,os
 from chat import predict_rasa_llm,predict_rasa_llm_for_image
 from config_app.config import get_config
-from utils.get_product_inventory import get_inventory
+from utils.get_product_inventory import multi_get
 from utils.google_search import search_google
 from utils.api_call import call_api
 from datetime import datetime
@@ -38,7 +38,7 @@ def handle_request(
     Image=None,
     Voice=None
     ):
-    current_date = datetime.now().strftime("%Y-%m-%d")
+    current_date = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     start_time = time.time()
     results = {
         "products": [],
@@ -100,7 +100,7 @@ def handle_request(
             voice_path = save_file(Voice, voice_folder)
 
             with open(voice_path, "rb") as f_wav:
-                files = {"speechFile": f_wav}
+                files = {"speechFile": f_wav}  
                 # data = {"type": "voice"}
                 response = call_api(voice_url, files=files)
                 print(response)
@@ -127,7 +127,7 @@ def handle_request(
 
                 return results
         
-        elif InputText not in ('terms', None) and InputText != 'similarity_status_true':
+        elif InputText not in ('terms', None) and InputText != 'similarity_status_true' and InputText != 'inventory_status_true':
             logging.info("---ChatText---")
             print('----ChatText-----')
             results['type_input'] = 'text'
@@ -146,6 +146,11 @@ def handle_request(
             results['type_input'] = 'similarity'
             results['similarity_status'] = True
             results['content'] = 'Bạn hãy nhập thông tin về giá hoặc thông số kỹ thuật của sản phẩm bạn đang quan tâm:'
+        
+        elif InputText == 'inventory_status_true':
+            results['type_input'] = 'inventory'
+            results['inventory_status'] = True
+            results['content'] = 'Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:'
         
         elif ObjectSearch:
             try:
@@ -171,7 +176,7 @@ def handle_request(
             results['type_input'] = 'inventory'
             logging.info("---Inventory---")
             print('----Inventory-----')
-            results['content'] = get_inventory(GoodsCode, ProvinceCode)
+            results['content'] = multi_get(GoodsCode, ProvinceCode)
             InputText = GoodsCode + '-' + ProvinceCode
 
         elif InputText == 'terms' or InputText == None:
@@ -187,7 +192,9 @@ def handle_request(
         # results["status"] = 500
         results["content"] = 'Rất tiếc vì sự cố không mong muốn này. Chúng tôi đang nỗ lực khắc phục và sẽ sớm trở lại. Cảm ơn sự thông cảm của bạn!'
         db_handler.logs_chat_saleman(User, IdRequest, current_date, results['type_input'], results['total_tokens'], 'False', 'Lỗi toàn hệ thống!', InputText, results["content"])
+            # print()
     # Set processing time and return results
     results['time_processing'] = time.time() - start_time
     print('results:',results)
+    logging.info(f"---results---: {results['content']}")
     return results

@@ -426,12 +426,6 @@ nlu:
     - nhà cửa
     - xây dựng
     - cây cối
-- intent: VCC_01
-  examples: |
-    - Chủ tịch của Viettel là ai
-    - ai là chủ tịch của viettel
-    - chủ tịch viettel
-    - người đứng đầu viettel
 - intent: VCC_02
   examples: |
     - Ngày thành lập tập đoàn viettel

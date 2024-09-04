@@ -1,0 +1,31 @@
+2024/08/31 16:34:57 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/31 16:34:57 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/31 16:34:57 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/31 16:34:57 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tra cứu hàng tồn kho?
+2024/08/31 16:34:57 main_run,line: 131     INFO | ---ChatText---
+2024/08/31 16:34:57 chat,line: 81     INFO | =====rasa=====
+2024/08/31 16:34:57 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/08/31 16:34:57 chat,line: 102     INFO | ====rasa done!====
+2024/08/31 16:34:57 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/08/31 21:40:48 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/31 21:40:48 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/31 21:40:48 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/31 21:40:48 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tra cứu hàng tồn kho?
+2024/08/31 21:40:48 main_run,line: 131     INFO | ---ChatText---
+2024/08/31 21:40:48 chat,line: 81     INFO | =====rasa=====
+2024/08/31 21:40:48 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/08/31 21:40:48 chat,line: 102     INFO | ====rasa done!====
+2024/08/31 21:40:48 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/01 16:04:10 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 16:04:10 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 16:04:10 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 16:04:10 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 16:04:10 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 16:04:10 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm năng lượng mặt trời aio: 
+Tên Kho: Kho  NDH Trung tâm Hải Hậu - Trực Ninh - Kinh doanh GPTH
+Mã kho: MKAIO_NDH_TTH_7_8
+SL: 1
+       -------------------      
+

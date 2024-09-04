@@ -1,7 +1,8 @@
 server:
     ip_address: "0.0.0.0"
-    port: 8099
-    port2: 8089
+    port: [
+        8099, 8097, 8095, 8093, 8091, 8089, 8087, 8085
+    ]
 
 parameter:
     #path data
@@ -14,16 +15,33 @@ parameter:
     voice_url: "http://10.248.243.105:8005/voice"
     #llm
     embeddings_name: "sentence-transformers/all-MiniLM-L6-v2"
-    gpt_model_to_use: "gpt-3.5-turbo-0125"
-    # gpt_model_to_use: "gpt-4o-mini-2024-07-18"
-    grog_model_to_use: "llama3-70b-8192"
-    temperature: 0
+    gpt_model_to_fewshot: "gpt-3.5-turbo-0125"
+    gpt_model_to_gen: "gpt-4o-mini-2024-07-18"
+    # gpt_model_to_use: "gpt-4o-mini-2024-07-18" "llama-3.1-70b-versatile" "llama3-groq-70b-8192-tool-use-preview"
+    grog_model_to_use: "llama-3.1-70b-versatile"
+    temperature: 0.5
     gpt_max_tokens: 256
+    max_tokens: 5000
     search_number_messages: 3
+    grog_api_keys: [
+        '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',
+        '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',
+        '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',
+        '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',
+        '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',
+        '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',
+        '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',
+        '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',
+        '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',
+        "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"
+    ]
 
+    openai_api_key: "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"
     #elasticsearch
     elastic_url: "http://10.248.243.105:9200"
     num_size_elas: 10
+    num_get_inventory: 5
+    data_inventory: ./data/DS- route Kho CNCT_20240329_134227.xlsx
     num_product: 1  # Số lượng sản phẩm tối đa cần tìm
         
     example_correct_spelling: [
@@ -50,8 +68,8 @@ parameter:
     
     example_price: [
         {
-            "input_text":"điều hòa daikin 9000",
-            "object":["điều hòa daikin 9000"],
+            "input_text":"điều hòa daikin 9000 khối lượng",
+            "object":["điều hòa daikin 9000 khối lượng"],
             "power":"",           
             "price":[""],
             "weight":"",
@@ -345,7 +363,7 @@ parameter:
             "specifications":""
         },
         {
-            "input_text":"cho tôi máy giặt có khối lượng 13kg",
+            "input_text":"cho tôi máy giặt có khối lượng giặt 13kg",
             "object":["máy giặt"],
             "power":"",           
             "price":[""],
@@ -603,8 +621,8 @@ parameter:
             "specifications":"hãng, loại rẻ không tốn, tư vấn"
         },
         {
-            "input_text":"danh sách quạt không khí",
-            "object": ["quạt không khí"],
+            "input_text":"danh sach dieu hoa",
+            "object": ["điều hòa"],
             "power":"",           
             "price":[""],
             "weight":"",
@@ -692,7 +710,7 @@ parameter:
             "volume":"",
             "specifications":""
         },{
-            "input_text":"tôi cần tìm đèn năng lượng mặt trời",
+            "input_text":"toi can tim den nang luong mat troi",
             "object": ["đèn năng lượng mặt trời"],
             "power":"",           
             "price":[""],
@@ -701,7 +719,7 @@ parameter:
             "specifications":""
         },
         {
-            "input_text":"điều hòa, đèn năng lượng mặt trời, lò vi sóng",
+            "input_text":"dieu hoa, den nang lương mat troi, lo vi song",
             "object": ["điều hòa","đèn năng lượng mặt trời", "lò vi sóng"],
             "power":"",           
             "price":[""],

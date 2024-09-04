@@ -1,0 +1,140 @@
+2024/08/30 15:41:13 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/30 15:41:13 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/30 15:41:13 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/30 15:41:13 chat_main_asyncio,line: 34     INFO | InputText: điều hòa
+2024/08/30 15:41:13 main_run,line: 131     INFO | ---ChatText---
+2024/08/30 15:41:13 chat,line: 81     INFO | =====rasa=====
+2024/08/30 15:41:13 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/08/30 15:41:13 chat,line: 102     INFO | ====rasa done!====
+2024/08/30 15:41:13 chat,line: 106     INFO | =====LLM=====
+2024/08/30 15:41:14 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/08/30 15:41:15 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/08/30 15:41:15 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.002s]
+2024/08/30 15:41:15 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.003s]
+2024/08/30 15:41:15 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+
+1. *điều hòa mdv - inverter 9000 btu - Mã: 019013000001
+  Thông số sản phẩm: nguồn điện: 220-240v
+công suất: 9500 btu/h
+công suất tiêu thụ: 745 w
+cường độ dòng điện: 3.4 a
+err: 3.54 w/w
+inverter : có
+kích thước máy trong ( dxrxc): 726x210x291 (mm)
+khối lượng thực máy trong/ khối lượng đóng gói: 8.2/10.3 kg
+kích thước máy ngoài (dxrxc): 835x300x540 (mm)
+khối lương thực máy ngoài / khối lượng đóng gói: 21.7/23.2 kg
+loại gas/ khối lượng nạp: r32/0.38
+ap suất thiết kế: 4.3/1.7 mpa
+chiều dài đường ống tối đa: 25m
+chênh lệch độ cao tối đa: 10m
+phạm vi lành lạnh hiệu quả : 12~18 m2
+hiệu suất năng lượng : 4.48 cspf
+bảo hành 3 năm cho sản phẩm
+bảo hành 5 năm cho máy nén
+suất xứ : thái lan
+ - Giá tiền: 6,014,184 đ*
+
+2. *quạt điều hòa không khí everest 6000d - Mã: M&EGD000154
+  Thông số sản phẩm: • điện áp: 220v - 50hz
+• kích thước: (dài) 440 x (rộng) 340 x (cao) 970 mm
+• lưu lượng gió: 6000m3/h
+• dung tích khay chứa nước: 45l
+• công suất: 80w
+• điều khiển từ xa: có
+• cảm biến chất lượng không khí: có
+• chức năng tạo ion: có
+• tốc độ gió: 3 tốc độ
+• hướng gió: 4 chiều trái phải, lên xuống
+ - Giá tiền: 2,427,000 đ*
+
+3. *điều hòa mdv 1 chiều 12000 btu - model 2023 - Mã: 019013000004
+  Thông số sản phẩm: model: mdvg-13crdn8
+công suất: 12.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 15 - 20m²
+gas: r32
+mức tiêu thụ điện: 1.15 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 810 x 285 x 210 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 14 kg
+trọng lượng dàn nóng: 25 kg
+ - Giá tiền: 7,246,030 đ*
+
+4. *điều hòa mdv 1 chiều inverter 18000 btu - model 2023 - Mã: 019013000003
+  Thông số sản phẩm: model: mdvg-18crdn8
+công suất: 18.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 20 - 30m²
+gas: r32
+mức tiêu thụ điện: 1.65 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 969 x 320 x 241 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 18 kg
+trọng lượng dàn nóng: 28 kg
+ - Giá tiền: 11,740,520 đ*
+
+2024/08/30 15:41:15 chat,line: 62     INFO | ==Conversation==
+2024/08/30 15:41:19 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/08/30 15:41:19 chat,line: 160     INFO | +LLM out+:
+Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về điều hòa:
+
+1. Điều hòa MDV - Inverter 9000 BTU - Mã: 019013000001
+   - Công suất: 9500 BTU/h
+   - Diện tích sử dụng: 12~18 m²
+   - Mức tiêu thụ điện: 745 W
+   - Kích thước máy trong (DxRxC): 726 x 210 x 291 (mm)
+   - Trọng lượng máy trong: 8.2 kg
+   - Bảo hành: 3 năm cho sản phẩm, 5 năm cho máy nén
+   - Giá tiền: 6,014,184 đ
+
+2. Điều hòa MDV 1 chiều 12000 BTU - Model 2023 - Mã: 019013000004
+   - Công suất: 12.000 BTU/h
+   - Diện tích sử dụng: 15 - 20 m²
+   - Mức tiêu thụ điện: 1.15 kW/h
+   - Kích thước dàn lạnh: 810 x 285 x 210 mm
+   - Trọng lượng dàn lạnh: 14 kg
+   - Bảo hành: 3 năm cho sản phẩm, 5 năm cho máy nén
+   - Giá tiền: 7,246,030 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/08/30 15:41:19 chat,line: 162     INFO | =====LLM done!=====
+2024/08/30 15:41:19 db_postgresql,line: 71     INFO | ======== logs_chat_saleman sucessfully! ==========}
+2024/08/30 15:41:19 main_run,line: 199     INFO | ---results---: Xin chào, dựa trên thông tin tôi đã tìm thấy, tôi cung cấp cho Anh/chị một số thông tin tham khảo về điều hòa:
+
+1. Điều hòa MDV - Inverter 9000 BTU - Mã: 019013000001
+   - Công suất: 9500 BTU/h
+   - Diện tích sử dụng: 12~18 m²
+   - Mức tiêu thụ điện: 745 W
+   - Kích thước máy trong : 726 x 210 x 291 
+   - Trọng lượng máy trong: 8.2 kg
+   - Bảo hành: 3 năm cho sản phẩm, 5 năm cho máy nén
+   - Giá tiền: 6,014,184 đ
+
+2. Điều hòa MDV 1 chiều 12000 BTU - Model 2023 - Mã: 019013000004
+   - Công suất: 12.000 BTU/h
+   - Diện tích sử dụng: 15 - 20 m²
+   - Mức tiêu thụ điện: 1.15 kW/h
+   - Kích thước dàn lạnh: 810 x 285 x 210 mm
+   - Trọng lượng dàn lạnh: 14 kg
+   - Bảo hành: 3 năm cho sản phẩm, 5 năm cho máy nén
+   - Giá tiền: 7,246,030 đ
+
+Nếu Anh/chị cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!
+2024/08/31 11:18:47 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/31 11:18:47 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/31 11:18:47 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/31 11:18:47 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/08/31 11:18:47 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!
+2024/08/31 11:19:09 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/08/31 11:19:09 log_file,line: 28     INFO | Logger object created successfully..
+2024/08/31 11:19:09 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/08/31 11:19:09 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/08/31 11:19:09 main_run,line: 177     INFO | ---Inventory---
+2024/08/31 11:19:09 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm Điều hòa: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+

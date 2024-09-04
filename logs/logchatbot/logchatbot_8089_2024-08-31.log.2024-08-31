@@ -1,0 +1,34 @@
+2024/09/01 15:53:59 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 15:53:59 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 15:53:59 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 15:53:59 chat_main_asyncio,line: 34     INFO | InputText: Bạn muốn tra cứu hàng tồn kho?
+2024/09/01 15:53:59 main_run,line: 131     INFO | ---ChatText---
+2024/09/01 15:53:59 chat,line: 81     INFO | =====rasa=====
+2024/09/01 15:53:59 chat,line: 100     INFO | +rasa out+:
+Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/01 15:53:59 chat,line: 102     INFO | ====rasa done!====
+2024/09/01 15:53:59 main_run,line: 199     INFO | ---results---: Anh/chị vui lòng nhập mã hoặc tên sản phẩm và mã tỉnh theo mẫu sau:
+2024/09/01 15:54:30 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 15:54:30 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 15:54:30 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 15:54:30 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 15:54:30 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 15:54:31 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm đèn năng lượng mặt trời: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/01 15:54:47 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 15:54:47 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 15:54:47 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 15:54:47 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 15:54:47 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 15:54:48 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm 100w: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+
+2024/09/01 15:54:48 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/01 15:54:48 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/01 15:54:48 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/01 15:54:48 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/01 15:54:48 main_run,line: 177     INFO | ---Inventory---
+2024/09/01 15:54:49 main_run,line: 199     INFO | ---results---: - Với mã/tên sản phẩm 100w: 
+Hiện tại tôi không thể tra cứu thông tin hàng tồn kho của sản phẩm bạn đang mong muốn, xin vui lòng thử lại sau.
+

@@ -1,0 +1,33 @@
+2024/09/02 20:37:51 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/02 20:37:51 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/02 20:37:51 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/02 20:37:51 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/02 20:37:51 main_run,line: 199     INFO | ---results---: Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!
+2024/09/03 08:28:03 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 08:28:03 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 08:28:03 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 08:28:03 chat_main_asyncio,line: 34     INFO | InputText: None
+2024/09/03 08:28:03 main_run,line: 199     INFO | ---results---: Chào bạn! Tôi là AI hỗ trợ của AIO. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mọi góp ý của bạn đều giúp tôi ngày càng hoàn thiện. Tôi có thể giúp gì cho bạn về các vấn đề chính sách hoặc tìm kiếm thông tin sản phẩm hôm nay?
+2024/09/03 18:16:34 log_file,line: 27     INFO | +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024/09/03 18:16:34 log_file,line: 28     INFO | Logger object created successfully..
+2024/09/03 18:16:34 chat_main_asyncio,line: 33     INFO | ----------------NEW_SESSION--------------
+2024/09/03 18:16:34 chat_main_asyncio,line: 34     INFO | InputText: SMDEN000081
+2024/09/03 18:16:34 main_run,line: 131     INFO | ---ChatText---
+2024/09/03 18:16:34 chat,line: 81     INFO | =====rasa=====
+2024/09/03 18:16:34 chat,line: 100     INFO | +rasa out+:
+LLM_predict
+2024/09/03 18:16:34 chat,line: 102     INFO | ====rasa done!====
+2024/09/03 18:16:34 chat,line: 106     INFO | =====LLM=====
+2024/09/03 18:16:35 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 18:16:36 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 18:16:36 _transport,line: 349     INFO | HEAD http://10.248.243.105:9200/chatbot [status:200 duration:0.003s]
+2024/09/03 18:16:36 _transport,line: 349     INFO | POST http://10.248.243.105:9200/chatbot/_search [status:200 duration:0.002s]
+2024/09/03 18:16:36 retrieval,line: 541     INFO | ======== elasticsearch output ==========:
+Dựa vào bối cảnh sau để trả lời
+trong database không có câu trả lời, hãy dựa vào lịch sử trò chuyện trước để trả lời:
+2024/09/03 18:16:36 chat,line: 62     INFO | ==Conversation==
+2024/09/03 18:16:37 _client,line: 1026     INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024/09/03 18:16:37 chat,line: 160     INFO | +LLM out+:
+Xin lỗi, em không có thông tin về mã sản phẩm SMDEN000081. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
+2024/09/03 18:16:37 chat,line: 162     INFO | =====LLM done!=====
+2024/09/03 18:16:37 main_run,line: 199     INFO | ---results---: Xin lỗi, em không có thông tin về mã sản phẩm SMDEN000081. Anh/chị hãy tham khảo thông tin giá, sản phẩm trên website giúp em!
